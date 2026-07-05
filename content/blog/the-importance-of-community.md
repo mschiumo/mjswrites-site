@@ -3,7 +3,7 @@ title: "The Importance of Community"
 slug: "the-importance-of-community"
 date: 2025-10-29
 categories: ["Opinion"]
-excerpt: "This might be a bit of a sappy post, but it"
+excerpt: "This might be a bit of a sappy post, but it's been on my mind lately. In such uncertain times, we often seek refuge in our communities. They could be comprised of family or friends, colleagues, teammates, or neighbors. W..."
 heroImage: "/images/ski.jpg"
 originalUrl: "https://mjswrites.com/blog/f/the-importance-of-community"
 ---

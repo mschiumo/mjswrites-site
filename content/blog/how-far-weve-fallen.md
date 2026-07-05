@@ -1,9 +1,9 @@
 ---
-title: "How Far We"
+title: "How Far We've Fallen"
 slug: "how-far-weve-fallen"
 date: 2026-02-11
 categories: ["Politics"]
-excerpt: "America, how far we"
+excerpt: "America, how far we've fallen. I often receive criticism for expressing my feelings of regret and disdain for what is currently transpiring in the United States. It seems I'm not the only one. "
 heroImage: "/images/files.jpg"
 originalUrl: "https://mjswrites.com/blog/f/how-far-weve-fallen"
 ---

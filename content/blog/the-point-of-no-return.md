@@ -3,7 +3,7 @@ title: "The Point of No Return"
 slug: "the-point-of-no-return"
 date: 2025-04-18
 categories: ["Opinion"]
-excerpt: "In just three months, the Trump administration has led the US economy to the precipice of disaster. With misguided and oftentimes incoherent policies surrounding international trade, America"
+excerpt: "In just three months, the Trump administration has led the US economy to the precipice of disaster. With misguided and oftentimes incoherent policies surrounding international trade, America's relationship with the rest ..."
 heroImage: "/images/trump-xi.jpeg"
 originalUrl: "https://mjswrites.com/blog/f/the-point-of-no-return"
 ---

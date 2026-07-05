@@ -3,7 +3,7 @@ title: "Life in the M(AI)trix"
 slug: "life-in-the-maitrix"
 date: 2026-02-24
 categories: ["Opinion", "Tech"]
-excerpt: "If you"
+excerpt: "If you're tired of hearing about artificial intelligence, you're not alone. It seems to be ubiquitous in today's world - you can't even watch the Superbowl without being inundated by ads peddling the 'future of AI.' It's..."
 heroImage: "/images/holding-hands.webp"
 originalUrl: "https://mjswrites.com/blog/f/life-in-the-maitrix"
 ---

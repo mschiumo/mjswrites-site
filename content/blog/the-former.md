@@ -2,7 +2,7 @@
 title: "the former "
 slug: "the-former"
 date: 2026-03-01
-excerpt: "i don"
+excerpt: "i don't run away from my emotions, i go to battle with them"
 heroImage: "/images/img_0784.webp"
 originalUrl: "https://mjswrites.com/blog/f/the-former"
 ---

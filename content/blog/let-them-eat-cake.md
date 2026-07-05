@@ -3,7 +3,7 @@ title: "Let Them Eat Cake..."
 slug: "let-them-eat-cake"
 date: 2024-05-14
 categories: ["Opinion"]
-excerpt: "In the 18th century, the phrase "
+excerpt: "In the 18th century, the phrase 'let them eat cake' encapsulated the aristocracy's unparalleled apathy towards the plight of common citizens in French society, leading to an historic and bloody revolution for the books. ..."
 heroImage: "/images/ltec.jpeg"
 originalUrl: "https://mjswrites.com/blog/f/let-them-eat-cake"
 ---

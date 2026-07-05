@@ -3,7 +3,7 @@ title: "Trump, Tariffs, and a Toppling Economy"
 slug: "trump-tariffs-and-a-toppling-economy"
 date: 2025-03-13
 categories: ["Opinion"]
-excerpt: "Recently, we"
+excerpt: "Recently, we've been hearing a lot about Trump's favorite word in the dictionary - tariff. So, what are tariffs, and why are the implementation of them currently causing the United States to inch closer to a recession?"
 heroImage: "/images/trump-crash.webp"
 originalUrl: "https://mjswrites.com/blog/f/trump-tariffs-and-a-toppling-economy"
 ---

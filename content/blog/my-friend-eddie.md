@@ -3,7 +3,7 @@ title: "my friend eddie"
 slug: "my-friend-eddie"
 date: 2026-03-06
 categories: ["Poetry"]
-excerpt: "Eddie"
+excerpt: "Eddie's a rough and tumble guy, a reminder of times gone by. Every day, without fail, he and I would take turns making the other smile and laugh. We had each other through anything, and I was always happy to lend a helpi..."
 heroImage: "/images/stoop2.webp"
 originalUrl: "https://mjswrites.com/blog/f/my-friend-eddie"
 ---

@@ -1,9 +1,9 @@
 ---
-title: "The Big Beautiful Bill and America"
+title: "The Big Beautiful Bill and America's Debt Crisis "
 slug: "the-big-beautiful-bill-and-americas-debt-crisis"
 date: 2025-07-04
 categories: ["Opinion"]
-excerpt: "America has a debt problem. In fact, it has become so severe that, for the first time ever, Moody"
+excerpt: "America has a debt problem. In fact, it has become so severe that, for the first time ever, Moody's has downgraded America's creditworthiness. With the passing of Trump's so-called 'Big Beautiful Bill,' America, and its ..."
 heroImage: "/images/debt-rating-.jpg"
 originalUrl: "https://mjswrites.com/blog/f/the-big-beautiful-bill-and-americas-debt-crisis"
 ---

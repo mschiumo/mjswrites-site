@@ -1,0 +1,268 @@
+---
+import Base from '../layouts/Base.astro';
+import SocialIcon from '../components/SocialIcon.astro';
+import { SOCIALS } from '../lib/socials';
+
+// The Contact page's "Find me" row uses the round-button variant (no labels).
+const FIND_ME = SOCIALS.filter((s) => s.name !== 'Buy me a coffee' && s.name !== 'Amazon');
+---
+<Base title="Contact — MJS Writes" description="Get in touch — custom poems, readings, mental-health advocacy, or just to say hello." active="contact" ctaLabel="Say hello" ctaHref="#form">
+
+  <section id="form" class="contact-hero">
+    <div class="contact-intro">
+      <div class="caveat contact-hey">say hello</div>
+      <h1>Let's talk.</h1>
+      <p>Whether you'd like a custom poem, want to talk mental health, book a reading, or just share what a piece meant to you — I read every message.</p>
+      <div class="contact-details">
+        <div>
+          <div class="detail-label">Email</div>
+          <a href="mailto:michaelschiuma@gmail.com" class="detail-link">michaelschiuma@gmail.com</a>
+        </div>
+        <div>
+          <div class="detail-label">Phone</div>
+          <a href="tel:+19736474153" class="detail-link">973-647-4153</a>
+        </div>
+        <div>
+          <div class="detail-label">Find me</div>
+          <div class="find-me">
+            {FIND_ME.map((s) => (
+              <a href={s.url} target="_blank" rel="noopener" title={s.name} class="find-btn">
+                <SocialIcon social={s} />
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-col">
+      <div class="sent-state" data-sent hidden>
+        <div class="caveat sent-hey">thank you ♥</div>
+        <h2>Your message is on its way.</h2>
+        <p>I'll get back to you as soon as I can. In the meantime, thanks for reaching out.</p>
+      </div>
+      <form data-contact>
+        <div class="form-row">
+          <label>
+            <span>Name</span>
+            <input required placeholder="Your name" name="name" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input required type="email" placeholder="you@email.com" name="email" />
+          </label>
+        </div>
+        <label>
+          <span>What's this about?</span>
+          <select name="subject">
+            <option>A custom poem commission</option>
+            <option>A book / reading enquiry</option>
+            <option>Mental-health advocacy</option>
+            <option>Just saying hello</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea required rows="5" placeholder="Tell me a little about it…" name="message"></textarea>
+        </label>
+        <button type="submit">Send message →</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about-inner">
+      <div class="about-photo">
+        <img src="/assets/author-portrait.jpg" alt="Michael reading by the New York City skyline at sunset" />
+        <div class="about-chip"><div class="caveat about-chip-text">from new york, with love</div></div>
+      </div>
+      <div>
+        <div class="caveat about-hey">a little about me</div>
+        <h2>Hi, I'm <span class="about-em">Michael</span></h2>
+        <div class="bio">
+          <p>I'm an author, poet, public speaker, and mental-health advocate from Sparta, NJ. My writing covers a multitude of topics — from technology and politics to travel and poetry, and the messy truth of living with mental illness.</p>
+          <p>Following a devastating episode of psychosis induced by bipolar disorder, I was inspired to write <em>(In)Sane</em> — to help others better understand mental illness and add to the conversation around it. I also keep a blog, <em>The Manic Millennial</em>, dedicated to broadening mental-health awareness.</p>
+          <p>And I love writing poetry, as my recent releases show: <em>from new york, with love</em> (2023), <em>words to love by</em> (2024), and my latest collection, <em>to be loved by a poet</em> (2024). From eloquent stanzas that tug at the heartstrings to lighthearted, relatable pieces, I hope my poetry leaves romantics joyful and inspired.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="skyline">
+    <img src="/assets/author-skyline.jpg" alt="Michael reading on a park bench with the New York City skyline at sunset" />
+    <div class="skyline-caption">
+      <div class="caveat skyline-hey">where the words come from</div>
+      <div class="skyline-sub">a quiet bench, a skyline, and a good book</div>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .contact-hero {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: stretch;
+    min-height: min(84vh, 720px);
+  }
+  .contact-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(48px, 6vw, 88px) clamp(40px, 5vw, 72px);
+    background: var(--bg-paper-deep);
+    animation: floatUp 0.8s ease both;
+  }
+  .contact-hey { font-size: 30px; margin-bottom: 10px; transform: rotate(-2deg); transform-origin: left; }
+  .contact-intro h1 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(40px, 5vw, 68px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+  }
+  .contact-intro > p { font-size: 18px; line-height: 1.7; color: #5a4f47; max-width: 38ch; margin-bottom: 36px; }
+  .contact-details { display: flex; flex-direction: column; gap: 22px; }
+  .detail-label {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 5px;
+  }
+  .detail-link {
+    font-family: var(--font-serif);
+    font-size: 21px;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1.5px solid var(--accent);
+    padding-bottom: 2px;
+  }
+  .find-me { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 4px; }
+  .find-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background: var(--bg-paper);
+    border: 1px solid rgba(44, 35, 32, 0.12);
+    border-radius: 50%;
+    color: var(--ink);
+    transition: border-color 0.25s ease, color 0.25s ease;
+  }
+  .find-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .contact-form-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(48px, 6vw, 88px) clamp(40px, 5vw, 80px);
+  }
+  .sent-state { text-align: center; padding: 40px 0; }
+  .sent-hey { font-size: 44px; margin-bottom: 12px; }
+  .sent-state h2 { font-family: var(--font-serif); font-weight: 400; font-size: 32px; margin-bottom: 14px; }
+  .sent-state p { font-size: 17px; line-height: 1.6; color: var(--ink-soft); max-width: 38ch; margin: 0 auto; }
+
+  form { display: flex; flex-direction: column; gap: 22px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  label { display: flex; flex-direction: column; gap: 8px; }
+  label span { font-size: 13px; font-weight: 600; letter-spacing: 0.04em; color: var(--ink-soft); }
+  input, select, textarea {
+    background: #fff;
+    border: 1px solid rgba(44, 35, 32, 0.16);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 15.5px;
+    font-family: var(--font-sans);
+    color: var(--ink);
+    outline: none;
+  }
+  input:focus, select:focus, textarea:focus { border-color: var(--accent); }
+  textarea { resize: vertical; }
+  form button {
+    align-self: flex-start;
+    background: var(--accent);
+    color: var(--bg-paper);
+    border: 0;
+    border-radius: 100px;
+    padding: 15px 36px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    cursor: pointer;
+    box-shadow: var(--shadow-cta);
+    transition: background 0.25s ease;
+  }
+  form button:hover { background: var(--accent-deep); }
+
+  .about { padding: clamp(56px, 8vw, 100px) var(--pad-x); }
+  .about-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.82fr 1.18fr;
+    gap: clamp(36px, 5vw, 72px);
+    align-items: center;
+  }
+  .about-photo { position: relative; }
+  .about-photo img { width: 100%; border-radius: 14px; box-shadow: 0 26px 60px rgba(44, 35, 32, 0.26); display: block; }
+  .about-chip {
+    position: absolute;
+    bottom: -16px;
+    left: -16px;
+    background: var(--surface-cream);
+    border-radius: 12px;
+    padding: 11px 18px;
+    box-shadow: 0 10px 30px rgba(44, 35, 32, 0.2);
+  }
+  .about-chip-text { font-size: 20px; line-height: 1.1; }
+  .about-hey { font-size: 28px; margin-bottom: 2px; }
+  .about h2 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(32px, 4vw, 52px);
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+  }
+  .about-em { font-style: italic; color: var(--accent-deep); }
+  .bio { font-family: var(--font-serif); font-size: 18px; line-height: 1.75; color: var(--ink); }
+  .bio p { margin-bottom: 20px; }
+  .bio p:last-child { margin-bottom: 0; }
+
+  .skyline { position: relative; }
+  .skyline > img {
+    width: 100%;
+    height: clamp(300px, 44vw, 560px);
+    object-fit: cover;
+    object-position: center 38%;
+    display: block;
+  }
+  .skyline-caption {
+    position: absolute;
+    bottom: clamp(20px, 4vw, 44px);
+    left: clamp(24px, 5vw, 72px);
+    color: var(--bg-paper);
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+  }
+  .skyline-hey { font-size: clamp(24px, 3vw, 34px); margin-bottom: 2px; color: var(--bg-paper); }
+  .skyline-sub { font-family: var(--font-serif); font-style: italic; font-size: clamp(16px, 1.8vw, 20px); opacity: 0.95; }
+
+  @media (max-width: 860px) {
+    .contact-hero { grid-template-columns: 1fr; min-height: 0; }
+    .about-inner { grid-template-columns: 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+</style>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('form[data-contact]');
+  const sent = document.querySelector<HTMLElement>('[data-sent]');
+  form?.addEventListener('submit', (e) => {
+    // No backend endpoint yet (see CLAUDE.md) — show the success state per the design.
+    e.preventDefault();
+    form.hidden = true;
+    if (sent) sent.hidden = false;
+  });
+</script>

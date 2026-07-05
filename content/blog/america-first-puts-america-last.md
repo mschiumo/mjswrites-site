@@ -1,5 +1,5 @@
 ---
-title: "america-first-puts-america-last"
+title: "'America First' Puts America Last"
 slug: "america-first-puts-america-last"
 date: 2025-01-29
 categories: ["Opinion"]

@@ -3,7 +3,7 @@ title: "Welcome to the Land of Smiles"
 slug: "welcome-to-the-land-of-smiles"
 date: 2026-04-28
 categories: ["Travel"]
-excerpt: "Yesterday, I arrived in Thailand, where I"
+excerpt: "Yesterday, I arrived in Thailand, where I'll be staying for the next few months. I'll admit mixed emotions - excitement coupled with a lasting sense of disbelief that I have actually managed to make the move. Nevertheles..."
 heroImage: "/images/bkk.webp"
 originalUrl: "https://mjswrites.com/blog/f/welcome-to-the-land-of-smiles"
 ---

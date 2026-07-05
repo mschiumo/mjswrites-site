@@ -3,7 +3,7 @@ title: "A Big Stick in the Hands of a Little Man"
 slug: "a-big-stick-in-the-hands-of-a-little-man"
 date: 2026-01-04
 categories: ["Opinion", "Politics"]
-excerpt: "I have been stating unequivocally that the United States is a fascist regime for longer than I care to recall. I have always held my reservations about naming America the "
+excerpt: "I have been stating unequivocally that the United States is a fascist regime for longer than I care to recall. I have always held my reservations about naming America the 'leading democracy' and 'beacon of peace,' becaus..."
 heroImage: "/images/maduro.jpg"
 originalUrl: "https://mjswrites.com/blog/f/a-big-stick-in-the-hands-of-a-little-man"
 ---

@@ -3,7 +3,7 @@ title: "the tension between us"
 slug: "the-tension-between-us"
 date: 2026-05-12
 categories: ["Poetry"]
-excerpt: "i can"
+excerpt: "i can't be the only one who lives and dies with the tension between us"
 heroImage: "/images/hands2.jpg"
 originalUrl: "https://mjswrites.com/blog/f/the-tension-between-us"
 ---

@@ -3,7 +3,7 @@ title: "The Seasonality of Bipolar"
 slug: "the-seasonality-of-bipolar"
 date: 2025-07-12
 categories: ["Mental Health"]
-excerpt: "Before my official diagnosis with Bipolar, I wasn"
+excerpt: "Before my official diagnosis with Bipolar, I wasn't cognizant of how my moods tended to shift. However, the pattern became more-apparent in my early twenties, when I first experienced identifiable periods of hypomania, f..."
 heroImage: "/images/sad-open-graph.jpeg"
 originalUrl: "https://mjswrites.com/blog/f/the-seasonality-of-bipolar"
 ---

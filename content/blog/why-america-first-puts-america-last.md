@@ -1,5 +1,5 @@
 ---
-title: "Why "
+title: "Why 'America First' Puts America Last"
 slug: "why-america-first-puts-america-last"
 date: 2024-12-30
 categories: ["Opinion"]

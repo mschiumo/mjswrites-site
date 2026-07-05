@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Page not found — MJS Writes">
+  <section class="nf">
+    <div class="caveat nf-hey">well, this is awkward</div>
+    <h1>Page not <span class="nf-em">found</span></h1>
+    <p>The page you're looking for has wandered off — perhaps in search of a poem.</p>
+    <div class="nf-ctas">
+      <a href="/" class="btn btn--ink">Back home</a>
+      <a href="/blog/" class="link-underline">Read the Journal →</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .nf { text-align: center; padding: clamp(80px, 14vw, 180px) 40px; animation: floatUp 0.8s ease both; }
+  .nf-hey { font-size: 28px; margin-bottom: 6px; }
+  h1 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(46px, 6vw, 80px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .nf-em { font-style: italic; color: var(--accent-deep); }
+  p { font-size: 18px; color: var(--ink-soft); margin-bottom: 36px; }
+  .nf-ctas { display: flex; align-items: center; justify-content: center; gap: 18px; flex-wrap: wrap; }
+</style>

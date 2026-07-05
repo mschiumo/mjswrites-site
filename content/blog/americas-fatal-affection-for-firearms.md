@@ -1,5 +1,5 @@
 ---
-title: "America"
+title: "America's Fatal Affection for Firearms"
 slug: "americas-fatal-affection-for-firearms"
 date: 2025-01-01
 categories: ["Opinion"]

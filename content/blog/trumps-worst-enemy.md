@@ -1,9 +1,9 @@
 ---
-title: "Trump"
+title: "Trump's Worst Enemy"
 slug: "trumps-worst-enemy"
 date: 2025-07-21
 categories: ["Opinion"]
-excerpt: "Trump loves to go on the offensive against those he perceives as enemies. In fact, President Trump seems to relish it even more, utilizing his power as America"
+excerpt: "Trump loves to go on the offensive against those he perceives as enemies. In fact, President Trump seems to relish it even more, utilizing his power as America's foremost executive to terrorize them in increasingly inven..."
 heroImage: "/images/240813-trump-epstein-ch-1439-21e50f.jpg"
 originalUrl: "https://mjswrites.com/blog/f/trumps-worst-enemy"
 ---

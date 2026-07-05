@@ -1,5 +1,5 @@
 ---
-title: "Something"
+title: "Something's Gotta Give"
 slug: "somethings-gotta-give"
 date: 2025-10-21
 categories: ["Opinion"]

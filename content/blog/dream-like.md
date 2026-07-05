@@ -3,7 +3,7 @@ title: "dream-like"
 slug: "dream-like"
 date: 2026-04-08
 categories: ["Poetry"]
-excerpt: "life doesn"
+excerpt: "life doesn't feel quite real in this moment"
 heroImage: "/images/future.webp"
 originalUrl: "https://mjswrites.com/blog/f/dream-like"
 ---

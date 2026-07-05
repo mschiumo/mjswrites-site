@@ -3,7 +3,7 @@ title: "The Crypto Craze"
 slug: "the-crypto-craze"
 date: 2025-07-31
 categories: ["Crypto", "Tech"]
-excerpt: "I"
+excerpt: "I've been involved with crypto since 2017. It was a time when only the true believers were holding strong to their conviction. Institutions, influential voices, and the Traditional Finance (TradFi) cohort at large were f..."
 heroImage: "/images/fink-btc.jpg"
 originalUrl: "https://mjswrites.com/blog/f/the-crypto-craze"
 ---

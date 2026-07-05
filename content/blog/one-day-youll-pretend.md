@@ -1,5 +1,5 @@
 ---
-title: "One Day, You"
+title: "One Day, You'll Pretend"
 slug: "one-day-youll-pretend"
 date: 2025-10-07
 categories: ["Opinion", "Poetry"]

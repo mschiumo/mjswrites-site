@@ -3,7 +3,7 @@ title: "Orwell Tried to Warn Us"
 slug: "orwell-tried-to-warn-us"
 date: 2025-02-05
 categories: ["Opinion"]
-excerpt: "Big Brother Trump is watching you. You shouldn"
+excerpt: "Big Brother Trump is watching you. You shouldn't be surprised - Orwell did try to warn us. "
 heroImage: "/images/trump-bb.png"
 originalUrl: "https://mjswrites.com/blog/f/orwell-tried-to-warn-us"
 ---

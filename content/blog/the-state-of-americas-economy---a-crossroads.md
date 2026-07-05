@@ -1,5 +1,5 @@
 ---
-title: "The State of America"
+title: "The State of America's Economy - A Crossroads"
 slug: "the-state-of-americas-economy---a-crossroads"
 date: 2025-12-03
 categories: ["Opinion"]

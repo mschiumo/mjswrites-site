@@ -3,7 +3,7 @@ title: "A Sonnet of Sure Demise"
 slug: "a-sonnet-of-sure-demise"
 date: 2025-09-26
 categories: ["Opinion"]
-excerpt: "A few months ago, I wrote an article entitled "
+excerpt: "A few months ago, I wrote an article entitled 'What Comes Next.' In it, I stressed the need to consider the consequences of allowing Trump, his administration, and the Conservative movement to continue the dismantling of..."
 heroImage: "/images/trump-un.jpeg"
 originalUrl: "https://mjswrites.com/blog/f/a-sonnet-of-sure-demise"
 ---

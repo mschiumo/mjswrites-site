@@ -1,5 +1,5 @@
 ---
-title: "this path i"
+title: "this path i've chosen"
 slug: "this-path-ive-chosen"
 date: 2026-02-25
 categories: ["Poetry"]

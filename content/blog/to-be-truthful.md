@@ -3,7 +3,7 @@ title: "to be truthful"
 slug: "to-be-truthful"
 date: 2026-05-09
 categories: ["Poetry"]
-excerpt: "to be truthful, it"
+excerpt: "to be truthful, it's the pursuit i crave"
 heroImage: "/images/bouqet.jpeg"
 originalUrl: "https://mjswrites.com/blog/f/to-be-truthful"
 ---

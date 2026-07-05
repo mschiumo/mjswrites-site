@@ -3,7 +3,7 @@ title: "the beautiful game"
 slug: "the-beautiful-game"
 date: 2026-06-29
 categories: ["Poetry"]
-excerpt: "there"
+excerpt: "there's a reason they call it the 'beautiful game'"
 heroImage: "/images/wc5.webp"
 originalUrl: "https://mjswrites.com/blog/f/the-beautiful-game"
 ---

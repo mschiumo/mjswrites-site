@@ -3,7 +3,7 @@ title: "Too Hot to Handle"
 slug: "too-hot-to-handle"
 date: 2025-11-15
 categories: ["Opinion", "Tech"]
-excerpt: "It is no secret that the Trump administration has made clear its intentions to run the economy "
+excerpt: "It is no secret that the Trump administration has made clear its intentions to run the economy 'hot.' Essentially, this amounts to slashing regulations, dramatically cutting interest rates, weakening the dollar, and floo..."
 heroImage: "/images/trump-sleeps.jpeg"
 originalUrl: "https://mjswrites.com/blog/f/too-hot-to-handle"
 ---
