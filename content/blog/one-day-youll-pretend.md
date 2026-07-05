@@ -1,19 +1,22 @@
 ---
-title: "One Day, You'll Pretend"
-slug: one-day-youll-pretend
-originalUrl: https://mjswrites.com/f/one-day-youll-pretend
-excerpt: "One day, you'll pretend that you weren't one of them."
-heroImage: images/one-day-youll-pretend.jpg
-heroImageSource: https://img1.wsimg.com/isteam/ip/e259b548-47ed-4340-bff7-0ae61774d64c/ice%20raid.jpg
-category: # TODO — capture from rendered page (not in static HTML)
-date: # TODO — capture from rendered page (not in static HTML)
-draft: false
+title: "One Day, You"
+slug: "one-day-youll-pretend"
+date: 2025-10-07
+categories: ["Opinion", "Poetry"]
+excerpt: "One day, you’ll pretend that you weren’t one of them. "
+heroImage: "/images/ice-raid.jpg"
+originalUrl: "https://mjswrites.com/blog/f/one-day-youll-pretend"
 ---
 
-One day, you'll pretend that you weren't one of them.
-
-<!-- TODO: FULL BODY REQUIRED
-GoDaddy renders the post body client-side. Only the opening line above
-(from og:description) is available in the static HTML. Capture the full
-body with a JS-rendering fetch (Playwright) or from the blog's RSS feed.
-See MIGRATION-README.md for the exact approach. -->
+One day, you’ll pretend that you weren’t one of them.  
+That you didn’t stand idly by as your neighbors were ripped from their homes  
+As children were left in despair, torn from their families, and wrenched away from innocence  
+You’ll pretend that you didn’t see the signs  
+That you didn’t know what the outcome might be  
+One day, you’ll pretend that you fought the good fight  
+That you saw the suffering of your fellow human beings, and shared their pain  
+One day, you’ll pretend that you didn’t stand behind the tyranny  
+That you didn’t harbor the hatred that has so viciously consumed us  
+One day, you’ll pretend that you didn’t stand back as the freedoms that once made this nation great were desecrated for the world to see  
+One day, you’ll pretend that you weren’t one of them  
+And I pray that, on that day, we won’t believe you.
