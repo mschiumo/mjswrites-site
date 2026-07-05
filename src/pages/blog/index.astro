@@ -1,6 +1,5 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Newsletter from '../../components/Newsletter.astro';
 import { getPosts, postUrl, fullDate, CATEGORY_ORDER } from '../../lib/posts';
 
 const posts = await getPosts();
@@ -60,10 +59,6 @@ const counts = new Map<string, number>(
     </aside>
   </section>
 
-  <Newsletter
-    heading="New writing, straight to your inbox"
-    sub="No noise — just new essays and poems as I publish them."
-  />
 </Base>
 
 <style>
