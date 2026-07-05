@@ -39,13 +39,13 @@ typewriter-typed poetry on Etsy.
    (Amazon/Etsy buy buttons, trailer plays). Vercel custom events are
    Pro-only — don't rely on them.
 
-4. **Blog migration:** posts live at mjswrites.com/f/{slug}. CRITICAL
-   FINDING: GoDaddy renders post bodies client-side — plain HTTP fetch
-   returns only meta tags (title, excerpt, hero image). Full playbook in
-   `MIGRATION-README.md`: try the RSS feed first, else Playwright. Many
-   posts are POEMS — preserve line breaks during HTML→markdown conversion.
-   Three scaffold posts with real metadata are in `content/blog/` with TODO
-   markers for bodies/dates.
+4. **Blog migration: DONE (July 6 2026).** All 111 posts from the live
+   site are in `content/blog/` as markdown with frontmatter (title, slug,
+   date, categories, excerpt, heroImage, originalUrl); all 218 images in
+   `images/` at original resolution. Poem line breaks preserved as hard
+   breaks. Internal links rewritten to `/blog/{slug}`. (Historical how-to
+   in `MIGRATION-README.md`; note Playwright wasn't needed — headless
+   Chrome `--dump-dom` did the job.)
 
 5. **SEO:** old URLs are indexed. Add vercel.json redirect
    `/f/:slug → /blog/:slug` (permanent).
@@ -54,17 +54,26 @@ typewriter-typed poetry on Etsy.
    (books) and Etsy (custom poetry). Newsletter form should use a free
    provider (Buttondown or Mailchimp embed) — decision pending with MJ.
 
+7. **Publishing workflow (decided July 6 2026): Claude Code flow, no CMS
+   for now.** To publish a post, MJ gives Claude Code the text + images;
+   Claude Code writes the markdown to `content/blog/` (matching the
+   frontmatter conventions of the migrated posts), puts images in
+   `images/`, commits, and pushes — Vercel auto-deploys. No admin
+   backend is built into the site. FUTURE: if a self-serve editing UI is
+   ever needed, the chosen direction is **Sanity** (hosted headless CMS) —
+   revisit content-loading in the Astro build at that point.
+
 ## Immediate next steps (in order)
 
-1. `git init`, create GitHub repo `mjswrites-site` (private), push.
-2. Scaffold Astro project; port `design/mjswrites-redesign.html` into
-   components/layouts; wire `content/blog/` as a content collection.
-3. Run the blog migration per `MIGRATION-README.md`; verify poem line
-   breaks; fill the three scaffold posts and add the rest.
-4. Build remaining pages: /books (or per-book pages), /blog index, /contact.
-5. Add vercel.json redirects, connect repo to Vercel, point GoDaddy DNS.
-6. Ask MJ for: his replacement poem for the commission band, real book
-   cover images, and his newsletter-provider choice.
+Done so far: repo created (PR #1), blog migration complete, hifi design
+handoff landed in `design/handoff/`.
+
+1. Scaffold Astro project; recreate the `design/handoff/` templates
+   (Home, Shop, Blog index, Article, Contact) as components/layouts per
+   the handoff README; wire `content/blog/` as a content collection.
+2. Add vercel.json redirects, connect repo to Vercel, point GoDaddy DNS.
+3. Ask MJ for: real form endpoints (contact + newsletter provider), and
+   the Etsy prints listing when live.
 
 ## Working agreements
 
