@@ -41,7 +41,7 @@ const [INSTAGRAM, ...OTHER_SOCIALS] = SOCIALS;
   <section class="about">
     <div class="about-inner">
       <div class="about-photo">
-        <img src="/assets/author-portrait.jpg" alt="Michael reading by the New York City skyline at sunset" />
+        <img src="/assets/author-bench.jpg" alt="Michael reading on the steps of a park under autumn trees" />
         <div class="about-chip"><div class="caveat about-chip-text">from new york, with love</div></div>
       </div>
       <div>
@@ -162,7 +162,16 @@ const [INSTAGRAM, ...OTHER_SOCIALS] = SOCIALS;
     align-items: center;
   }
   .about-photo { position: relative; }
-  .about-photo img { width: 100%; border-radius: 14px; box-shadow: 0 26px 60px rgba(44, 35, 32, 0.26); display: block; }
+  .about-photo img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    /* wide source photo — crop the window onto the subject (~54% across) */
+    object-position: 57% center;
+    border-radius: 14px;
+    box-shadow: 0 26px 60px rgba(44, 35, 32, 0.26);
+    display: block;
+  }
   .about-chip {
     position: absolute;
     bottom: -16px;
