@@ -1,0 +1,201 @@
+---
+import Base from '../../layouts/Base.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import { getPosts, postUrl, fullDate, CATEGORY_ORDER } from '../../lib/posts';
+
+const posts = await getPosts();
+
+const counts = new Map<string, number>(
+  CATEGORY_ORDER.map((c) => [
+    c,
+    c === 'All Posts' ? posts.length : posts.filter((p) => p.data.categories.includes(c)).length,
+  ]),
+);
+---
+<Base title="The Journal — MJS Writes" description="Honest writing on mental health, love, and the craft of putting hard things into words." active="blog">
+
+  <header class="blog-header">
+    <div class="caveat blog-hey">words, essays &amp; poems</div>
+    <h1>The <span class="blog-em">Journal</span></h1>
+    <p>Honest writing on mental health, love, and the craft of putting hard things into words.</p>
+  </header>
+
+  <section class="blog-body">
+    <div class="blog-list">
+      <div class="empty-state" data-empty hidden>
+        <div class="caveat empty-hey">nothing here yet</div>
+        <p>No posts in <strong data-empty-cat></strong> just yet — check back soon.</p>
+      </div>
+      {posts.map((post) => (
+        <a
+          href={postUrl(post)}
+          class="blog-item"
+          data-post
+          data-cats={post.data.categories.join('|')}
+        >
+          <div class="blog-item-img"><img src={post.data.heroImage} alt={post.data.title} loading="lazy" /></div>
+          <div class="blog-item-copy">
+            <div class="blog-item-meta">
+              <span>{fullDate(post.data.date)}</span>
+              <span class="sep">|</span>
+              <span class="blog-item-cat">{post.data.categories.join(', ')}</span>
+            </div>
+            <h3>{post.data.title}</h3>
+            <p>{post.data.excerpt}</p>
+            <span class="continue">Continue reading →</span>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <aside>
+      <h2>Categories</h2>
+      <div class="cat-list">
+        {CATEGORY_ORDER.map((cat) => (
+          <button data-cat={cat} class:list={['cat-btn', { active: cat === 'All Posts' }]}>
+            <span>{cat}</span><span class="cat-count">{counts.get(cat)}</span>
+          </button>
+        ))}
+      </div>
+    </aside>
+  </section>
+
+  <Newsletter
+    heading="New writing, straight to your inbox"
+    sub="No noise — just new essays and poems as I publish them."
+  />
+</Base>
+
+<style>
+  .blog-header {
+    text-align: center;
+    padding: clamp(56px, 8vw, 104px) 40px clamp(30px, 4vw, 48px);
+    animation: floatUp 0.8s ease both;
+  }
+  .blog-hey { font-size: 28px; margin-bottom: 6px; }
+  .blog-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(46px, 6.5vw, 86px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .blog-em { font-style: italic; color: var(--accent-deep); }
+  .blog-header p { font-size: 18.5px; line-height: 1.65; color: var(--ink-soft); max-width: 54ch; margin: 0 auto; }
+
+  .blog-body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: clamp(24px, 4vw, 48px) clamp(40px, 6vw, 80px) clamp(56px, 7vw, 88px);
+    display: grid;
+    grid-template-columns: 1fr 236px;
+    gap: clamp(40px, 5vw, 76px);
+    align-items: start;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 70px 20px;
+    border: 1px dashed rgba(44, 35, 32, 0.2);
+    border-radius: 14px;
+  }
+  .empty-hey { font-size: 30px; margin-bottom: 8px; }
+  .empty-state p { font-size: 16px; color: var(--ink-soft); }
+  .empty-state strong { color: var(--ink); }
+
+  .blog-item {
+    display: grid;
+    grid-template-columns: 210px 1fr;
+    gap: clamp(20px, 2.4vw, 32px);
+    text-decoration: none;
+    color: var(--ink);
+    padding: clamp(24px, 3vw, 34px) 0;
+    border-top: 1px solid rgba(44, 35, 32, 0.12);
+  }
+  .blog-item:hover { opacity: 0.92; }
+  .blog-item-img {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 12px 30px rgba(44, 35, 32, 0.14);
+  }
+  .blog-item-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s ease; }
+  .blog-item:hover .blog-item-img img { transform: scale(1.05); }
+  .blog-item-copy { align-self: center; }
+  .blog-item-meta { display: flex; align-items: center; gap: 12px; font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+  .sep { color: rgba(44, 35, 32, 0.25); }
+  .blog-item-cat { font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; font-size: 11.5px; color: var(--accent); }
+  .blog-item h3 {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(24px, 2.8vw, 30px);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    margin-bottom: 10px;
+  }
+  .blog-item-copy p { font-size: 15.5px; line-height: 1.62; color: var(--ink-soft); margin-bottom: 14px; }
+  .continue { font-size: 14.5px; font-weight: 600; color: var(--accent); }
+
+  aside { position: sticky; top: 96px; }
+  aside h2 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: -0.01em;
+    padding-bottom: 14px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(44, 35, 32, 0.14);
+  }
+  .cat-list { display: flex; flex-direction: column; }
+  .cat-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: left;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-family: var(--font-serif);
+    font-size: 18px;
+    padding: 9px 0;
+    color: var(--ink);
+    font-weight: 400;
+    border-left: 2px solid transparent;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+  }
+  .cat-btn:hover { color: var(--accent); }
+  .cat-btn.active { color: var(--accent); font-weight: 600; border-left-color: var(--accent); padding-left: 12px; }
+  .cat-count { font-family: var(--font-sans); font-size: 12.5px; color: var(--muted-faint); }
+
+  @media (max-width: 860px) {
+    .blog-body { grid-template-columns: 1fr; }
+    aside { position: static; order: -1; }
+    .cat-list { flex-direction: row; flex-wrap: wrap; gap: 4px 18px; }
+    .blog-item { grid-template-columns: 1fr; }
+    .blog-item-img { max-height: 260px; }
+  }
+</style>
+
+<script>
+  const items = Array.from(document.querySelectorAll<HTMLElement>('[data-post]'));
+  const buttons = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-cat]'));
+  const emptyState = document.querySelector<HTMLElement>('[data-empty]');
+  const emptyCat = document.querySelector<HTMLElement>('[data-empty-cat]');
+
+  function apply(cat: string) {
+    let visible = 0;
+    for (const item of items) {
+      const show = cat === 'All Posts' || (item.dataset.cats ?? '').split('|').includes(cat);
+      item.style.display = show ? '' : 'none';
+      if (show) visible++;
+    }
+    for (const btn of buttons) btn.classList.toggle('active', btn.dataset.cat === cat);
+    if (emptyState) emptyState.hidden = visible > 0;
+    if (emptyCat) emptyCat.textContent = cat;
+  }
+
+  buttons.forEach((btn) => btn.addEventListener('click', () => apply(btn.dataset.cat!)));
+</script>

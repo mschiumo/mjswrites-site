@@ -1,0 +1,322 @@
+---
+import Base from '../layouts/Base.astro';
+import { ETSY_LISTING } from '../lib/socials';
+
+const POEM_PHOTOS = [
+  { img: '/assets/tw-tobeloved.jpg', alt: 'a typed poem — to be loved by a poet' },
+  { img: '/assets/tw-fragment.jpg', alt: 'a typed poem resting among roses' },
+  { img: '/assets/tw-tryasthey.jpg', alt: 'a typed poem — try as they may' },
+  { img: '/assets/tw-machine.jpg', alt: 'a vintage Smith-Corona typewriter with roses' },
+];
+
+const POEM_LINES = [
+  'I find something so captivating in your eyes',
+  'Or, maybe, it has found me',
+  "So, I'll linger here for a few seconds more",
+  'As the world bustles along, as it always has',
+  'And revel in the joy of a new beginning',
+  'Content to be still as I uncover more of you',
+  "I'll chance one last glance",
+  'As you drift silently away',
+  'Setting my gaze on the dwindling twilight',
+  'Grateful for this moment',
+  'Shared between two',
+];
+---
+<Base title="The Shop — MJS Writes" description="One-of-a-kind poems typed just for you, digital editions, and — coming soon — poetry prints." active="shop">
+
+  <header class="shop-header">
+    <div class="caveat shop-hey">take a piece home</div>
+    <h1>The <span class="shop-em">Shop</span></h1>
+    <p>One-of-a-kind poems typed just for you, digital editions, and — coming soon — poetry prints for your wall.</p>
+  </header>
+
+  <section class="custom-dark">
+    <div class="custom-grid">
+      <div class="custom-photo">
+        <img src="/assets/tw-picture.jpg" alt="An original poem typed on a vintage typewriter" />
+        <div class="custom-tag">typed on a real typewriter</div>
+      </div>
+      <div>
+        <div class="eyebrow eyebrow--on-dark made-to-order">Made to order</div>
+        <h2>Custom poetry, <span class="em-light">typed just for you</span></h2>
+        <p class="custom-p">Tell me about a person, a moment, or a feeling, and I'll write you an original poem on a vintage typewriter — a keepsake made to be framed and kept. Perfect for weddings, anniversaries, memorials, or simply saying what's hard to say.</p>
+        <a href={ETSY_LISTING} target="_blank" rel="noopener" class="btn-light">Order on Etsy →</a>
+      </div>
+    </div>
+
+    <div class="gallery-grid">
+      {POEM_PHOTOS.map((p) => (
+        <a href={ETSY_LISTING} target="_blank" rel="noopener" class="gallery-item">
+          <img src={p.img} alt={p.alt} />
+        </a>
+      ))}
+    </div>
+
+    <div class="digital">
+      <div class="poster-wrap">
+        <div class="poster">
+          <div class="caveat poster-hey">a poem for two</div>
+          <h4>Between Two</h4>
+          <div class="poster-divider"><span class="line"></span><span class="fleuron">❦</span><span class="line"></span></div>
+          <div class="poster-poem">
+            {POEM_LINES.map((line, i) => (
+              <Fragment>{line}{i < POEM_LINES.length - 1 && <br />}</Fragment>
+            ))}
+          </div>
+          <div class="poster-mark">poetry by mjs</div>
+        </div>
+        <div class="poster-badge">Digital edition</div>
+      </div>
+      <div>
+        <div class="eyebrow eyebrow--on-dark digital-eyebrow">Paper, or pixels</div>
+        <h3>Prefer it <span class="em-light">digital?</span></h3>
+        <p class="custom-p">Not every poem needs to arrive in the mail. Choose a digital edition and I'll design your custom poem into a beautiful, print-ready file — delivered straight to your inbox, ready to share, post, or print and frame yourself. Same original words, instant delivery.</p>
+        <div class="bullets">
+          <div><i>✦</i> A designed, high-resolution digital file</div>
+          <div><i>✦</i> Personalized with names, dates &amp; details</div>
+          <div><i>✦</i> Delivered fast — perfect for last-minute gifts</div>
+        </div>
+        <a href={ETSY_LISTING} target="_blank" rel="noopener" class="btn-cream">Order a digital poem →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="coming-soon">
+    <div class="coming-head">
+      <div class="coming-pill">Coming soon</div>
+      <h2>Poetry <span class="shop-em">prints</span>, coming to Etsy</h2>
+      <p>I'm putting the finishing touches on a collection of custom art prints — my poems, hand-set and designed to hang on your wall. Leave your email and I'll let you know the moment they drop.</p>
+    </div>
+    <form data-notify>
+      <input type="email" required placeholder="your email" aria-label="Email address" />
+      <button type="submit">Notify me</button>
+    </form>
+  </section>
+</Base>
+
+<style>
+  .shop-header {
+    text-align: center;
+    padding: clamp(56px, 8vw, 104px) 40px clamp(40px, 5vw, 64px);
+    animation: floatUp 0.8s ease both;
+  }
+  .shop-hey { font-size: 28px; margin-bottom: 6px; }
+  .shop-header h1 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(46px, 6.5vw, 86px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .shop-em { font-style: italic; color: var(--accent-deep); }
+  .shop-header p { font-size: 18.5px; line-height: 1.65; color: var(--ink-soft); max-width: 52ch; margin: 0 auto; }
+
+  .custom-dark { background: var(--surface-dark); color: var(--on-dark); padding: var(--pad-section); }
+  .custom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(36px, 5vw, 80px);
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .custom-photo { position: relative; justify-self: center; max-width: 460px; }
+  .custom-photo img { width: 100%; border-radius: 10px; box-shadow: 0 26px 60px rgba(0, 0, 0, 0.4); display: block; }
+  .custom-tag {
+    position: absolute;
+    bottom: -16px;
+    left: -18px;
+    background: var(--accent-light);
+    color: var(--ink);
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 9px 16px;
+    border-radius: 100px;
+  }
+  .made-to-order { margin-bottom: 16px; }
+  .custom-dark h2 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(30px, 3.6vw, 48px);
+    line-height: 1.04;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .em-light { font-style: italic; color: var(--accent-light); }
+  .custom-p { font-size: 17px; line-height: 1.72; color: var(--on-dark-soft); max-width: 52ch; margin-bottom: 30px; }
+  .btn-light {
+    display: inline-block;
+    background: var(--accent-light);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 32px;
+    border-radius: 100px;
+    transition: background 0.25s ease;
+  }
+  .btn-light:hover { background: var(--bg-paper); }
+  .btn-cream {
+    display: inline-block;
+    background: var(--bg-paper);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 100px;
+    transition: background 0.25s ease;
+  }
+  .btn-cream:hover { background: var(--accent-light); }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: clamp(12px, 1.6vw, 20px);
+    max-width: 1180px;
+    margin: clamp(40px, 5vw, 60px) auto 0;
+  }
+  .gallery-item { display: block; aspect-ratio: 4 / 5; overflow: hidden; border-radius: 8px; }
+  .gallery-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s ease; }
+  .gallery-item:hover img { transform: scale(1.05); }
+
+  .digital {
+    max-width: 1180px;
+    margin: clamp(44px, 5vw, 64px) auto 0;
+    border-top: 1px solid rgba(246, 238, 227, 0.14);
+    padding-top: clamp(40px, 5vw, 56px);
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: clamp(32px, 4vw, 64px);
+    align-items: center;
+  }
+  .poster-wrap { justify-self: center; max-width: 370px; width: 100%; position: relative; }
+  .poster {
+    background: var(--surface-cream);
+    border: 1px solid rgba(44, 35, 32, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 28px 64px rgba(0, 0, 0, 0.5);
+    padding: clamp(30px, 4vw, 46px) clamp(26px, 3.4vw, 40px);
+    transform: rotate(-1.4deg);
+  }
+  .poster-hey { font-size: 23px; text-align: center; transform: rotate(-2deg); display: block; }
+  .poster h4 {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(30px, 4vw, 38px);
+    line-height: 1;
+    text-align: center;
+    color: var(--ink);
+    margin: 10px 0 14px;
+  }
+  .poster-divider { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 22px; }
+  .poster-divider .line { height: 1px; width: 44px; background: var(--accent); opacity: 0.5; }
+  .fleuron { color: var(--accent); font-size: 15px; }
+  .poster-poem { font-family: var(--font-serif); font-size: 13.5px; line-height: 1.95; text-align: center; color: var(--ink-soft-3); }
+  .poster-mark {
+    text-align: center;
+    font-family: var(--font-sans);
+    font-size: 9.5px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted-faint);
+    margin-top: 20px;
+  }
+  .poster-badge {
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    background: var(--accent-light);
+    color: var(--ink);
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border-radius: 100px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+    z-index: 2;
+  }
+  .digital-eyebrow { margin-bottom: 14px; }
+  .digital h3 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(26px, 3vw, 40px);
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+  }
+  .bullets { display: flex; flex-direction: column; gap: 11px; margin-bottom: 30px; }
+  .bullets div { display: flex; align-items: center; gap: 12px; font-size: 16px; color: var(--on-dark); }
+  .bullets i { color: var(--accent-light); font-style: normal; font-size: 15px; }
+
+  .coming-soon { background: var(--bg-paper-deep); padding: clamp(56px, 8vw, 100px) var(--pad-x); }
+  .coming-head { max-width: 1180px; margin: 0 auto; text-align: center; }
+  .coming-pill {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--bg-paper);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+  }
+  .coming-head h2 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(32px, 4vw, 54px);
+    line-height: 1.04;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+  }
+  .coming-head p { font-size: 18px; line-height: 1.65; color: var(--ink-soft); max-width: 52ch; margin: 0 auto 44px; }
+  .coming-soon form { display: flex; gap: 10px; max-width: 460px; margin: 0 auto; flex-wrap: wrap; justify-content: center; }
+  .coming-soon input {
+    flex: 1;
+    min-width: 220px;
+    background: #fff;
+    border: 1px solid rgba(44, 35, 32, 0.16);
+    border-radius: 100px;
+    padding: 14px 22px;
+    font-size: 15.5px;
+    font-family: var(--font-sans);
+    color: var(--ink);
+    outline: none;
+  }
+  .coming-soon button {
+    background: var(--accent);
+    color: var(--bg-paper);
+    border: 0;
+    border-radius: 100px;
+    padding: 14px 28px;
+    font-size: 15.5px;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    cursor: pointer;
+    transition: background 0.25s ease;
+  }
+  .coming-soon button:hover { background: var(--accent-deep); }
+
+  @media (max-width: 860px) {
+    .custom-grid, .digital { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+
+<script>
+  document.querySelectorAll('form[data-notify]').forEach((form) => {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('button');
+      if (btn) btn.textContent = "You're on the list ♥";
+    });
+  });
+</script>

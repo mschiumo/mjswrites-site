@@ -1,0 +1,89 @@
+---
+interface Props {
+  heading?: string;
+  sub?: string;
+}
+
+const {
+  heading = 'Get new poems & writing in your inbox',
+  sub = 'No noise — just the occasional new piece, a behind-the-scenes note, and the odd bit of levity.',
+} = Astro.props;
+---
+<section class="newsletter">
+  <h2>{heading}</h2>
+  <p>{sub}</p>
+  <form data-newsletter>
+    <input type="email" required placeholder="your email" aria-label="Email address" />
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+<style>
+  .newsletter {
+    background: var(--accent);
+    color: var(--on-dark);
+    padding: clamp(56px, 8vw, 92px) var(--pad-x);
+    text-align: center;
+  }
+  h2 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(32px, 4vw, 52px);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin: 0 auto 16px;
+    max-width: 20ch;
+  }
+  p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #FBEDE1;
+    max-width: 44ch;
+    margin: 0 auto 32px;
+    opacity: 0.92;
+  }
+  form {
+    display: flex;
+    gap: 10px;
+    max-width: 480px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  input {
+    flex: 1;
+    min-width: 220px;
+    background: var(--bg-paper);
+    border: 0;
+    border-radius: 100px;
+    padding: 15px 24px;
+    font-size: 16px;
+    font-family: var(--font-sans);
+    color: var(--ink);
+    outline: none;
+  }
+  button {
+    background: var(--ink);
+    color: var(--bg-paper);
+    border: 0;
+    border-radius: 100px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-sans);
+    cursor: pointer;
+    transition: background 0.25s ease;
+  }
+  button:hover { background: #191310; }
+</style>
+
+<script>
+  // No backend yet (see CLAUDE.md) — swap the label as the design specifies.
+  document.querySelectorAll('form[data-newsletter]').forEach((form) => {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('button');
+      if (btn) btn.textContent = 'Thank you ♥';
+    });
+  });
+</script>
