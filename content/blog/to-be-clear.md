@@ -4,7 +4,7 @@ slug: "to-be-clear"
 date: 2025-03-02
 categories: ["Mental Health"]
 excerpt: "A piece I submitted to the NAMI NJ Mental Health Poetry contest. The prompt was - what has prompted clarity for you in your recovery journey? Below is my response."
-heroImage: "/images/6qzjywz"
+heroImage: "/images/6qzjywz.jpg"
 originalUrl: "https://mjswrites.com/blog/f/to-be-clear"
 ---
 
