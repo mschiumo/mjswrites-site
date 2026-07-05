@@ -24,7 +24,7 @@ export const SOCIALS: Social[] = [
   { name: 'Pinterest', path: siPinterest.path, url: 'https://www.pinterest.com/POETRYBYMJS/' },
   { name: 'Medium', path: siMedium.path, url: 'https://medium.com/@amanicmillennial' },
   { name: 'Goodreads', path: siGoodreads.path, url: 'https://www.goodreads.com/author/show/44940562.Michael_J_Schiuma' },
-  { name: 'Etsy — custom poetry', path: siEtsy.path, url: 'https://www.etsy.com/listing/1810349891/personalized-custom-poetry-typed-on' },
+  { name: 'Etsy — custom poetry', path: siEtsy.path, url: 'https://www.etsy.com/listing/1839580090/personalized-custom-poetry-digital' },
   {
     name: 'Amazon',
     path: null,
@@ -41,5 +41,5 @@ export const BOOKS = [
   { name: 'to be loved by a poet', url: 'https://www.amazon.com/be-loved-poet-Michael-Schiuma/dp/B0DJ7CT6CG' },
 ];
 
-export const ETSY_LISTING = 'https://www.etsy.com/listing/1810349891/personalized-custom-poetry-typed-on';
+export const ETSY_LISTING = 'https://www.etsy.com/listing/1839580090/personalized-custom-poetry-digital';
 export const MEMOIR_ANNOUNCEMENT = 'https://a.co/d/gGNZ2QT';
