@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400;1,6..72,500&family=Instrument+Sans:wght@400;500;600&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:#F6EEE3;-webkit-font-smoothing:antialiased}
+  @keyframes floatUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+  ::selection{background:#C6633A;color:#F6EEE3}
+  input::placeholder,textarea::placeholder{color:#a89a8c}
+</style>
+</helmet>
+
+<div style="background:#F6EEE3;color:#2C2320;font-family:'Instrument Sans',sans-serif;overflow-x:hidden">
+
+  <div style="background:#2C2320;color:#F6EEE3;text-align:center;padding:10px 20px;font-size:13.5px;letter-spacing:0.02em;font-weight:500">
+    <a href="https://a.co/d/gGNZ2QT" target="_blank" style="color:#F6EEE3;text-decoration:none">
+      <span style="color:#E0A277">✦</span>&nbsp;&nbsp;<em style="font-family:'Newsreader',serif;font-style:italic;font-size:15px">(In)Sane</em> — my memoir on bipolar, madness &amp; recovery is out now
+      <span style="text-decoration:underline;text-underline-offset:3px;margin-left:6px">Read it →</span>
+    </a>
+  </div>
+
+  <nav style="position:sticky;top:0;z-index:50;background:rgba(246,238,227,0.82);backdrop-filter:blur(12px);border-bottom:1px solid rgba(44,35,32,0.09);display:flex;align-items:center;justify-content:space-between;padding:16px 40px">
+    <a href="MJS%20Writes.dc.html" style="font-family:'Newsreader',serif;font-weight:500;font-size:23px;letter-spacing:-0.01em;color:#2C2320;text-decoration:none;display:flex;align-items:baseline;gap:9px">
+      <span style="font-family:'Newsreader',serif;font-weight:600;font-size:24px;letter-spacing:0.14em;color:#2C2320">MJS</span><span style="font-family:'Newsreader',serif;font-style:italic;font-weight:400;font-size:24px;color:#C6633A">Writes</span>
+    </a>
+    <div style="display:flex;align-items:center;gap:34px">
+      <a href="MJS%20Writes.dc.html" style="color:#2C2320;text-decoration:none;font-size:15px;font-weight:500">Home</a>
+      <a href="Shop.dc.html" style="color:#2C2320;text-decoration:none;font-size:15px;font-weight:500">Shop</a>
+      <a href="Blog.dc.html" style="color:#2C2320;text-decoration:none;font-size:15px;font-weight:500">Blog</a>
+      <a href="Contact.dc.html" style="color:#C6633A;text-decoration:none;font-size:15px;font-weight:600">Contact</a>
+      <a href="#form" style="background:#C6633A;color:#F6EEE3;text-decoration:none;font-size:14.5px;font-weight:600;padding:9px 20px;border-radius:100px;box-shadow:0 2px 10px rgba(164,78,44,0.28)" style-hover="background:#A44E2C">Say hello</a>
+    </div>
+  </nav>
+
+  <!-- HERO + FORM -->
+  <section id="form" style="display:grid;grid-template-columns:0.9fr 1.1fr;gap:0;align-items:stretch;min-height:min(84vh,720px)">
+    <!-- left: intro -->
+    <div style="display:flex;flex-direction:column;justify-content:center;padding:clamp(48px,6vw,88px) clamp(40px,5vw,72px);background:#EFE3D3;animation:floatUp 0.8s ease both">
+      <div style="font-family:'Caveat',cursive;font-size:30px;color:#C6633A;margin-bottom:10px;transform:rotate(-2deg);transform-origin:left">say hello</div>
+      <h1 style="font-family:'Newsreader',serif;font-weight:400;font-size:clamp(40px,5vw,68px);line-height:1;letter-spacing:-0.02em;margin-bottom:24px">Let's talk.</h1>
+      <p style="font-size:18px;line-height:1.7;color:#5a4f47;max-width:38ch;margin-bottom:36px">Whether you'd like a custom poem, want to talk mental health, book a reading, or just share what a piece meant to you — I read every message.</p>
+      <div style="display:flex;flex-direction:column;gap:22px">
+        <div>
+          <div style="font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:#9c8a7c;margin-bottom:5px">Email</div>
+          <a href="mailto:michaelschiuma@gmail.com" style="font-family:'Newsreader',serif;font-size:21px;color:#2C2320;text-decoration:none;border-bottom:1.5px solid #C6633A;padding-bottom:2px">michaelschiuma@gmail.com</a>
+        </div>
+        <div>
+          <div style="font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:#9c8a7c;margin-bottom:5px">Phone</div>
+          <a href="tel:+19736474153" style="font-family:'Newsreader',serif;font-size:21px;color:#2C2320;text-decoration:none;border-bottom:1.5px solid #C6633A;padding-bottom:2px">973-647-4153</a>
+        </div>
+        <div>
+          <div style="font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:#9c8a7c;margin-bottom:9px">Find me</div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <sc-for list="{{ socials }}" as="s" hint-placeholder-count="4">
+              <a href="{{ s.url }}" target="_blank" title="{{ s.name }}" style="display:flex;align-items:center;justify-content:center;width:42px;height:42px;background:#F6EEE3;border:1px solid rgba(44,35,32,0.12);border-radius:50%" style-hover="border-color:#C6633A">
+                <img src="{{ s.logo }}" alt="{{ s.name }}" width="18" height="18" style="width:18px;height:18px;display:block"/>
+              </a>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- right: form -->
+    <div style="display:flex;flex-direction:column;justify-content:center;padding:clamp(48px,6vw,88px) clamp(40px,5vw,80px)">
+      <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+        <div style="text-align:center;padding:40px 0">
+          <div style="font-family:'Caveat',cursive;font-size:44px;color:#C6633A;margin-bottom:12px">thank you ♥</div>
+          <h2 style="font-family:'Newsreader',serif;font-weight:400;font-size:32px;margin-bottom:14px">Your message is on its way.</h2>
+          <p style="font-size:17px;line-height:1.6;color:#6B5D53;max-width:38ch;margin:0 auto">I'll get back to you as soon as I can. In the meantime, thanks for reaching out.</p>
+        </div>
+      </sc-if>
+      <sc-if value="{{ notSent }}" hint-placeholder-val="{{ true }}">
+      <form onSubmit="{{ onSubmit }}" style="display:flex;flex-direction:column;gap:22px">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px">
+          <label style="display:flex;flex-direction:column;gap:8px">
+            <span style="font-size:13px;font-weight:600;letter-spacing:0.04em;color:#6B5D53">Name</span>
+            <input required placeholder="Your name" style="background:#fff;border:1px solid rgba(44,35,32,0.16);border-radius:10px;padding:14px 16px;font-size:15.5px;font-family:'Instrument Sans',sans-serif;color:#2C2320;outline:none" style-focus="border-color:#C6633A"/>
+          </label>
+          <label style="display:flex;flex-direction:column;gap:8px">
+            <span style="font-size:13px;font-weight:600;letter-spacing:0.04em;color:#6B5D53">Email</span>
+            <input required type="email" placeholder="you@email.com" style="background:#fff;border:1px solid rgba(44,35,32,0.16);border-radius:10px;padding:14px 16px;font-size:15.5px;font-family:'Instrument Sans',sans-serif;color:#2C2320;outline:none" style-focus="border-color:#C6633A"/>
+          </label>
+        </div>
+        <label style="display:flex;flex-direction:column;gap:8px">
+          <span style="font-size:13px;font-weight:600;letter-spacing:0.04em;color:#6B5D53">What's this about?</span>
+          <select style="background:#fff;border:1px solid rgba(44,35,32,0.16);border-radius:10px;padding:14px 16px;font-size:15.5px;font-family:'Instrument Sans',sans-serif;color:#2C2320;outline:none" style-focus="border-color:#C6633A">
+            <option>A custom poem commission</option>
+            <option>A book / reading enquiry</option>
+            <option>Mental-health advocacy</option>
+            <option>Just saying hello</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label style="display:flex;flex-direction:column;gap:8px">
+          <span style="font-size:13px;font-weight:600;letter-spacing:0.04em;color:#6B5D53">Message</span>
+          <textarea required rows="5" placeholder="Tell me a little about it…" style="background:#fff;border:1px solid rgba(44,35,32,0.16);border-radius:10px;padding:14px 16px;font-size:15.5px;font-family:'Instrument Sans',sans-serif;color:#2C2320;outline:none;resize:vertical" style-focus="border-color:#C6633A"></textarea>
+        </label>
+        <button type="submit" style="align-self:flex-start;background:#C6633A;color:#F6EEE3;border:0;border-radius:100px;padding:15px 36px;font-size:16px;font-weight:600;font-family:'Instrument Sans',sans-serif;cursor:pointer;box-shadow:0 6px 20px rgba(164,78,44,0.3)" style-hover="background:#A44E2C">Send message →</button>
+      </form>
+      </sc-if>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section style="background:#F6EEE3;padding:clamp(56px,8vw,100px) clamp(40px,6vw,96px)">
+    <div style="max-width:1140px;margin:0 auto;display:grid;grid-template-columns:0.82fr 1.18fr;gap:clamp(36px,5vw,72px);align-items:center">
+      <div style="position:relative">
+        <img src="assets/author-portrait.jpg" alt="Michael reading by the New York City skyline at sunset" style="width:100%;border-radius:14px;box-shadow:0 26px 60px rgba(44,35,32,0.26);display:block"/>
+        <div style="position:absolute;bottom:-16px;left:-16px;background:#FBF6EC;border-radius:12px;padding:11px 18px;box-shadow:0 10px 30px rgba(44,35,32,0.2)"><div style="font-family:'Caveat',cursive;font-size:20px;color:#C6633A;line-height:1.1">from new york, with love</div></div>
+      </div>
+      <div>
+        <div style="font-family:'Caveat',cursive;font-size:28px;color:#C6633A;margin-bottom:2px">a little about me</div>
+        <h2 style="font-family:'Newsreader',serif;font-weight:400;font-size:clamp(32px,4vw,52px);letter-spacing:-0.02em;margin-bottom:24px">Hi, I'm <span style="font-style:italic;color:#A44E2C">Michael</span></h2>
+        <div style="font-family:'Newsreader',serif;font-size:18px;line-height:1.75;color:#2C2320">
+          <p style="margin-bottom:20px">I'm an author, poet, public speaker, and mental-health advocate from Sparta, NJ. My writing covers a multitude of topics — from technology and politics to travel and poetry, and the messy truth of living with mental illness.</p>
+          <p style="margin-bottom:20px">Following a devastating episode of psychosis induced by bipolar disorder, I was inspired to write <em style="font-style:italic">(In)Sane</em> — to help others better understand mental illness and add to the conversation around it. I also keep a blog, <em style="font-style:italic">The Manic Millennial</em>, dedicated to broadening mental-health awareness.</p>
+          <p>And I love writing poetry, as my recent releases show: <em style="font-style:italic">from new york, with love</em> (2023), <em style="font-style:italic">words to love by</em> (2024), and my latest collection, <em style="font-style:italic">to be loved by a poet</em> (2024). From eloquent stanzas that tug at the heartstrings to lighthearted, relatable pieces, I hope my poetry leaves romantics joyful and inspired.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKYLINE BAND -->
+  <div style="position:relative">
+    <img src="assets/author-skyline.jpg" alt="Michael reading on a park bench with the New York City skyline at sunset" style="width:100%;height:clamp(300px,44vw,560px);object-fit:cover;object-position:center 38%;display:block"/>
+    <div style="position:absolute;bottom:clamp(20px,4vw,44px);left:clamp(24px,5vw,72px);color:#F6EEE3;text-shadow:0 2px 20px rgba(0,0,0,0.5)">
+      <div style="font-family:'Caveat',cursive;font-size:clamp(24px,3vw,34px);margin-bottom:2px">where the words come from</div>
+      <div style="font-family:'Newsreader',serif;font-style:italic;font-size:clamp(16px,1.8vw,20px);opacity:0.95">a quiet bench, a skyline, and a good book</div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer style="background:#221A17;color:#C9BBAD;padding:clamp(48px,6vw,72px) clamp(40px,6vw,96px) 40px">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;border-bottom:1px solid rgba(246,238,227,0.1);padding-bottom:36px;margin-bottom:26px">
+      <div>
+        <div style="font-family:'Newsreader',serif;font-size:26px;color:#F6EEE3;margin-bottom:8px"><span style="font-weight:600;letter-spacing:0.14em">MJS</span><span style="font-style:italic;color:#E0A277;margin-left:9px">Writes</span></div>
+        <p style="font-size:15px;line-height:1.6;max-width:42ch">Author, poet &amp; mental-health advocate — writing on bipolar and recovery, plus travel, technology, politics, and poetry.</p>
+      </div>
+      <div style="display:flex;gap:56px;flex-wrap:wrap">
+        <div style="display:flex;flex-direction:column;gap:11px">
+          <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#8a7b6d;margin-bottom:4px">Explore</div>
+          <a href="MJS%20Writes.dc.html" style="color:#C9BBAD;text-decoration:none;font-size:15px">Home</a>
+          <a href="Shop.dc.html" style="color:#C9BBAD;text-decoration:none;font-size:15px">Shop</a>
+          <a href="Blog.dc.html" style="color:#C9BBAD;text-decoration:none;font-size:15px">Blog</a>
+          <a href="Contact.dc.html" style="color:#C9BBAD;text-decoration:none;font-size:15px">Contact</a>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:11px">
+          <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:#8a7b6d;margin-bottom:4px">Books</div>
+          <a href="https://a.co/d/aE0W78i" target="_blank" style="color:#C9BBAD;text-decoration:none;font-size:15px">(In)Sane</a>
+          <a href="https://a.co/d/a3ZDwUv" target="_blank" style="color:#C9BBAD;text-decoration:none;font-size:15px">words to love by</a>
+          <a href="https://www.amazon.com/be-loved-poet-Michael-Schiuma/dp/B0DJ7CT6CG" target="_blank" style="color:#C9BBAD;text-decoration:none;font-size:15px">to be loved by a poet</a>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13.5px;color:#8a7b6d">
+      <span>© 2026 MJS Writes — All rights reserved.</span>
+      <span style="display:flex;gap:22px">
+        <a href="https://mjswrites.com/privacy-policy" target="_blank" style="color:#8a7b6d;text-decoration:none">Privacy Policy</a>
+        <a href="https://mjswrites.com/terms-and-conditions" target="_blank" style="color:#8a7b6d;text-decoration:none">Terms &amp; Conditions</a>
+      </span>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1280,&quot;height&quot;:860}}">
+class Component extends DCLogic {
+  state = { sent: false };
+  renderVals() {
+    return {
+      sent: this.state.sent,
+      notSent: !this.state.sent,
+      onSubmit: (e) => { e.preventDefault(); this.setState({ sent: true }); },
+      socials: [
+        { name: 'Instagram', logo: 'https://cdn.simpleicons.org/instagram/2C2320', url: 'https://www.instagram.com/poetrybymjs/' },
+        { name: 'TikTok', logo: 'https://cdn.simpleicons.org/tiktok/2C2320', url: 'https://www.tiktok.com/@poetrybymjs' },
+        { name: 'Pinterest', logo: 'https://cdn.simpleicons.org/pinterest/2C2320', url: 'https://www.pinterest.com/POETRYBYMJS/' },
+        { name: 'Medium', logo: 'https://cdn.simpleicons.org/medium/2C2320', url: 'https://medium.com/@amanicmillennial' },
+        { name: 'Goodreads', logo: 'https://cdn.simpleicons.org/goodreads/2C2320', url: 'https://www.goodreads.com/author/show/44940562.Michael_J_Schiuma' },
+        { name: 'Etsy', logo: 'https://cdn.simpleicons.org/etsy/2C2320', url: 'https://www.etsy.com/listing/1810349891/personalized-custom-poetry-typed-on' },
+        { name: 'X / Twitter', logo: 'https://cdn.simpleicons.org/x/2C2320', url: 'https://twitter.com/man1cmillennial' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -11,20 +11,22 @@ typewriter-typed poetry on Etsy.
 
 ## Session handoff — decisions already made (July 2026, claude.ai chat)
 
-1. **Design is decided.** `design/mjswrites-redesign.html` is the approved
-   direction — treat it as the source of truth for visual identity:
-   - Palette: ink navy #1B2233, cool paper #F6F6F2, brand slate #4E5F83,
-     typewriter-ribbon red #B23A48. No warm-cream/terracotta defaults.
-   - Type: Special Elite (typewriter display), EB Garamond (body serif),
-     Work Sans (UI/labels).
-   - Signature motifs: typed hero with blinking caret; the "(in)" parenthesis
-     in ribbon red, reused as section labels like "(01)", "(the memoir)".
-   - Sections: announcement bar → sticky nav with single "Get (In)Sane" CTA →
-     typed hero with book cover → dark memoir spotlight → 3-card poetry
-     shelf → Etsy custom-poetry commission band with typed-paper sample →
-     blog + newsletter panels → consolidated footer with all socials.
-   - NOTE: the poem in the commission band is PLACEHOLDER verse written by
-     Claude — MJ must replace it with his own piece before launch.
+1. **Design is decided — `design/handoff/` is the source of truth**
+   (July 6 2026 hifi handoff; see `design/handoff/README.md` for full design
+   tokens, page specs, and interaction notes). It SUPERSEDES the earlier
+   `design/mjswrites-redesign.html` concept (ink-navy/typewriter direction),
+   which is retained for history only.
+   - Palette: warm paper #F6EEE3, ink #2C2320, accent burnt orange #C6633A
+     (full token table in the handoff README).
+   - Type: Newsreader (display/body serif, heavy italics), Instrument Sans
+     (UI), Caveat (handwritten accents), Courier Prime (typewriter tags).
+   - Five page templates: Home, Shop, Blog index (category filter),
+     Article, Contact — prototypes in `design/handoff/*.dc.html` are visual
+     specs to recreate in the framework, NOT production code to ship.
+   - The 3 sample articles in `design/handoff/journal/` are starter drafts —
+     real post bodies come from the blog migration (`content/blog/`).
+   - The "Between Two" poem on Shop is real client copy (keep verbatim,
+     rendered as HTML not an image).
 
 2. **Stack plan:** static site (Astro preferred; Next.js acceptable),
    markdown-based blog in `content/blog/`, deployed via GitHub → Vercel
