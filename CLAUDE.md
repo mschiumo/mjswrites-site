@@ -51,8 +51,12 @@ typewriter-typed poetry on Etsy.
    `/f/:slug → /blog/:slug` (permanent).
 
 6. **Commerce:** no cart on the new site. Buy links go out to Amazon
-   (books) and Etsy (custom poetry). Newsletter form should use a free
-   provider (Buttondown or Mailchimp embed) — decision pending with MJ.
+   (books) and Etsy (custom poetry). Newsletter: launched WITHOUT email
+   capture (July 6 2026 decision) — the newsletter bands and Shop
+   notify-me form were removed rather than shipping forms that silently
+   drop signups. `src/components/Newsletter.astro` is kept unused; when
+   MJ picks a provider (Buttondown or Mailchimp), wire it and re-add the
+   bands to Home + Blog.
 
 7. **Publishing workflow (decided July 6 2026): Claude Code flow, no CMS
    for now.** To publish a post, MJ gives Claude Code the text + images;
