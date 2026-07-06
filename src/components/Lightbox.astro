@@ -1,0 +1,105 @@
+---
+// Image lightbox for the typed-poem galleries. Any element with a
+// `data-lightbox-src` attribute opens the dialog; Esc / backdrop / ✕ close it.
+import { ETSY_LISTING } from '../lib/socials';
+---
+<dialog data-lightbox>
+  <button class="lb-close" aria-label="Close" data-lb-close>✕</button>
+  <img src="" alt="" />
+  <div class="lb-caption">
+    <span data-lb-caption></span>
+    <a href={ETSY_LISTING} target="_blank" rel="noopener">Order yours on Etsy →</a>
+  </div>
+</dialog>
+
+<style>
+  dialog[data-lightbox] {
+    border: 0;
+    padding: 0;
+    margin: auto;
+    background: transparent;
+    max-width: min(92vw, 880px);
+    max-height: 92vh;
+    overflow: visible;
+  }
+  dialog[data-lightbox]::backdrop {
+    background: rgba(34, 26, 23, 0.88);
+    backdrop-filter: blur(4px);
+  }
+  dialog[data-lightbox] img {
+    display: block;
+    max-width: min(92vw, 880px);
+    max-height: calc(92vh - 74px);
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 40px 90px rgba(0, 0, 0, 0.5);
+  }
+  .lb-close {
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    background: var(--bg-paper);
+    color: var(--ink);
+    font-size: 16px;
+    font-family: var(--font-sans);
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    transition: background 0.25s ease, color 0.25s ease;
+  }
+  .lb-close:hover { background: var(--accent); color: var(--bg-paper); }
+  .lb-caption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    padding: 0 4px;
+  }
+  .lb-caption span {
+    font-family: var(--font-hand);
+    font-size: 21px;
+    color: var(--bg-paper);
+  }
+  .lb-caption a {
+    color: var(--accent-light);
+    text-decoration: none;
+    font-family: var(--font-sans);
+    font-size: 14.5px;
+    font-weight: 600;
+    border-bottom: 1.5px solid rgba(224, 162, 119, 0.4);
+    padding-bottom: 2px;
+  }
+</style>
+
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>('dialog[data-lightbox]');
+  const img = dialog?.querySelector('img');
+  const caption = dialog?.querySelector<HTMLElement>('[data-lb-caption]');
+
+  document.querySelectorAll<HTMLElement>('[data-lightbox-src]').forEach((el) => {
+    el.addEventListener('click', () => {
+      if (!dialog || !img) return;
+      img.src = el.dataset.lightboxSrc!;
+      img.alt = el.dataset.lightboxAlt ?? '';
+      if (caption) caption.textContent = el.dataset.lightboxAlt ?? '';
+      dialog.showModal();
+    });
+  });
+
+  dialog?.querySelector('[data-lb-close]')?.addEventListener('click', () => dialog.close());
+  // close on backdrop click (clicks outside the dialog's content box)
+  dialog?.addEventListener('click', (e) => {
+    const r = dialog.getBoundingClientRect();
+    if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) {
+      dialog.close();
+    }
+  });
+</script>
