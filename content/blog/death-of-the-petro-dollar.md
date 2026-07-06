@@ -8,23 +8,48 @@ heroImage: "/images/petro-dollar.jpeg"
 originalUrl: "https://mjswrites.com/blog/f/death-of-the-petro-dollar"
 ---
 
-[  
-![](/images/petro-dollar.jpeg)  
-$USD  
-](https://michaeljanschiumo.medium.com/death-of-the-petro-dollar-9f792e1e0403)  
-As you may have noticed, I am a proponent of cryptocurrency. I believe in it for many reasons — giving people control over their own finances, lowering the cost of and speeding up transactions, and creating transparency through a distributed ledger. However, in the wake of recent events, there are even more reasons to be bullish on digital currency, and bearish on the US dollar.  
-[Click here to view the original article on Medium](https://medium.com/@michaeljanschiumo/death-of-the-petro-dollar-9f792e1e0403)  
-# **Big Oil**  
-It is no secret that one of the keys to America’s economic dominance has long been oil. It was only a few years ago that America became a net exporter of oil, meaning that we have a demonstrated surplus. This was primarily due to the practice of hydraulic fracturing, or “fracking.” However, this has also come with its own set of consequences, namely the environmental devastation of land, water, and air surrounding drilling sites.  
-However, we have to go back a bit further to reach the real reason that America’s currency has been the *de facto* medium of exchange on a global scale. In the 1970s, the United States and Saudi Arabia brokered a deal that would set a lasting precedent — oil was to always be priced in USD. When viewing oil prices, you will notice that they are broken into other categories that point to American dominance — West Texas Intermediate and Brent crude. These are measures of the purity of the oil, and a representation of how they have been refined.  
-Since then, the world’s reliance on oil has grown to staggering heights. Additionally, the world’s developing economies, such as Russia, China, India, and Brazil (the BRIC countries) have continued to increase petroleum consumption, causing demand to swell. As China’s economy continues to boom, it is within reach of eclipsing the US to become the world’s largest. Apart from financial measures, this development has also been the product of strategic partnerships and alliances on a geopolitical scale — China’s Belt and Road initiative, deals brokered with Russia, and, most recently, a historic, 50-year agreement with Saudi Arabia that not only shifts the focus of Saudi Arabia’s oil exports, but changes the denomination in which these trades will be made, effectively nixing the US dollar.  
-This change denotes a shift in the gravity of China’s influence, and signifies a step towards a world economy that relies less and less upon the United States.  
-# **Inflated to the Extreme**  
-In the face of the pandemic, the Federal Reserve and Congress have seen their hand forced into printing money to stimulate a crippled economy. However, the stimulus initiatives are but a temporary fix to an array of systemic problems in the US economy. Wage stagnation, the soaring cost of living, and, of course, inflation. In the end, inflation will be the downfall of the US dollar.  
-In the past year, the Federal Reserve has printed nearly **35% of the money supply in circulation**. This is not only dangerous, but exposes the US to a world of negative consequences. The devaluation of the yuan has long been a tactic of China’s, used to give the country a competitive advantage in regards to exports. However, this unprecedented printing of money in the United States now makes hyper-inflation a real, and terrifying, possibility. Just ask Venezuela.  
-The United States is the quintessential service-based economy, as opposed to China’s standing as a manufacturing powerhouse. As China continues to make strides in infrastructure, technology, and other areas, the United States faces a worthy adversary, and has begun to see its influence wane on the world stage.  
-Cut to April of 2021. China has announced a transition to an entirely digital yuan. Some experts believe that, if the United States does not act to transition to a digital dollar, China’s dominance will not only be solidified, but the US economy will be left in shambles.  
-# **What Comes Next?**  
-In recent months, institutions have flocked to the crypto exchanges to get their hands on billions of dollars’ worth of Bitcoin and other digital currencies. Former critics, such as JP Morgan Chase’s Jamie Dimon, who labeled Bitcoin a scam, now offer their clients the option to invest in Bitcoin and other cryptocurrencies, a move that solidifies the role of Bitcoin in the modern economy.  
-Beyond this, billions in Bitcoin have been removed from exchanges into cold storage, signaling that crypto whales are extremely bullish. Some countries, such as China and Colombia, have moved to outlaw Bitcoin entirely, fearing the consequences of a citizenry with control over personal finances. However, it is very difficult to shut down an entity that is not owned or operated by any one individual or organization.  
+[
+
+![](/images/petro-dollar.jpeg)
+
+$USD
+
+](https://michaeljanschiumo.medium.com/death-of-the-petro-dollar-9f792e1e0403)
+
+As you may have noticed, I am a proponent of cryptocurrency. I believe in it for many reasons — giving people control over their own finances, lowering the cost of and speeding up transactions, and creating transparency through a distributed ledger. However, in the wake of recent events, there are even more reasons to be bullish on digital currency, and bearish on the US dollar.
+
+[Click here to view the original article on Medium](https://medium.com/@michaeljanschiumo/death-of-the-petro-dollar-9f792e1e0403)
+
+---
+
+# **Big Oil**
+
+It is no secret that one of the keys to America’s economic dominance has long been oil. It was only a few years ago that America became a net exporter of oil, meaning that we have a demonstrated surplus. This was primarily due to the practice of hydraulic fracturing, or “fracking.” However, this has also come with its own set of consequences, namely the environmental devastation of land, water, and air surrounding drilling sites.
+
+However, we have to go back a bit further to reach the real reason that America’s currency has been the *de facto* medium of exchange on a global scale. In the 1970s, the United States and Saudi Arabia brokered a deal that would set a lasting precedent — oil was to always be priced in USD. When viewing oil prices, you will notice that they are broken into other categories that point to American dominance — West Texas Intermediate and Brent crude. These are measures of the purity of the oil, and a representation of how they have been refined.
+
+Since then, the world’s reliance on oil has grown to staggering heights. Additionally, the world’s developing economies, such as Russia, China, India, and Brazil (the BRIC countries) have continued to increase petroleum consumption, causing demand to swell. As China’s economy continues to boom, it is within reach of eclipsing the US to become the world’s largest. Apart from financial measures, this development has also been the product of strategic partnerships and alliances on a geopolitical scale — China’s Belt and Road initiative, deals brokered with Russia, and, most recently, a historic, 50-year agreement with Saudi Arabia that not only shifts the focus of Saudi Arabia’s oil exports, but changes the denomination in which these trades will be made, effectively nixing the US dollar.
+
+This change denotes a shift in the gravity of China’s influence, and signifies a step towards a world economy that relies less and less upon the United States.
+
+---
+
+# **Inflated to the Extreme**
+
+In the face of the pandemic, the Federal Reserve and Congress have seen their hand forced into printing money to stimulate a crippled economy. However, the stimulus initiatives are but a temporary fix to an array of systemic problems in the US economy. Wage stagnation, the soaring cost of living, and, of course, inflation. In the end, inflation will be the downfall of the US dollar.
+
+In the past year, the Federal Reserve has printed nearly **35% of the money supply in circulation**. This is not only dangerous, but exposes the US to a world of negative consequences. The devaluation of the yuan has long been a tactic of China’s, used to give the country a competitive advantage in regards to exports. However, this unprecedented printing of money in the United States now makes hyper-inflation a real, and terrifying, possibility. Just ask Venezuela.
+
+The United States is the quintessential service-based economy, as opposed to China’s standing as a manufacturing powerhouse. As China continues to make strides in infrastructure, technology, and other areas, the United States faces a worthy adversary, and has begun to see its influence wane on the world stage.
+
+Cut to April of 2021. China has announced a transition to an entirely digital yuan. Some experts believe that, if the United States does not act to transition to a digital dollar, China’s dominance will not only be solidified, but the US economy will be left in shambles.
+
+---
+
+# **What Comes Next?**
+
+In recent months, institutions have flocked to the crypto exchanges to get their hands on billions of dollars’ worth of Bitcoin and other digital currencies. Former critics, such as JP Morgan Chase’s Jamie Dimon, who labeled Bitcoin a scam, now offer their clients the option to invest in Bitcoin and other cryptocurrencies, a move that solidifies the role of Bitcoin in the modern economy.
+
+Beyond this, billions in Bitcoin have been removed from exchanges into cold storage, signaling that crypto whales are extremely bullish. Some countries, such as China and Colombia, have moved to outlaw Bitcoin entirely, fearing the consequences of a citizenry with control over personal finances. However, it is very difficult to shut down an entity that is not owned or operated by any one individual or organization.
+
 As fossil fuels become less desirable, and the world shifts to renewable energy, the influence of oil on the world economy will continue to diminish. As the USD continues its descent, people will look for new currencies that will allow them to transact with their peers. Imagine a world in which you can send money in a currency that is valued exactly the same — everywhere. This is why digital currency, and the concept of digital scarcity, are the key to fighting the issues arising from the existing fiat-currency paradigm. So, yes, the Petro dollar is slowly dying. The question remains — what will replace it? I have a few ideas.

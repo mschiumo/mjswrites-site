@@ -54,4 +54,4 @@ the way we stayed true
 despite the fracture  
 the quiet defiance  
 of trying once more​​​​​​​​​​​​​​​​  
-*This poem was a collaboration with Andreea Cristine. Find more of her work *[*here*](https://www.instagram.com/litteraeastra?igsh=MXU5MXNldjduOGFv)*.*
+*This poem was a collaboration with Andreea Cristine. Find more of her work* [*here*](https://www.instagram.com/litteraeastra?igsh=MXU5MXNldjduOGFv)*.*

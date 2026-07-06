@@ -8,35 +8,78 @@ heroImage: "/images/cryptoville.webp"
 originalUrl: "https://mjswrites.com/blog/f/welcome-to-cryptoville"
 ---
 
-Original article [published Nov. 8, 2021 via Medium](https://michaeljanschiumo.medium.com/welcome-to-cryptoville-fed7aabf1157).  
-#### A New Future  
-As Bitcoin leads crypto markets to new all-time highs, it seems that the movement to digitalize our financial world continues to perplex, and polarize.  
-On one side, the “Oracle of Omaha,” Warren Buffet, [once called Bitcoin “rat poison squared,”](https://finance.yahoo.com/news/why-warren-buffett-hates-bitcoin-220000544.html) continuing on to say that it “is not a durable means of exchange.” Other conservatives seem to agree with Buffet — Jamie Dimon, CEO of JP Morgan, [decried the flagship cryptocurrency as “worthless.”](https://www.cnbc.com/2021/10/11/jpmorgan-chase-ceo-jamie-dimon-says-bitcoin-is-worthless.html)  
-Despite harsh criticism from some of the largest personalities in the Financial Services Industry, new faces have arrived in the fight to utilize crypto for the greater good. Within hours of polls closing and vote-counts finalizing, two mayors of major US cities announced that they would be accepting their salaries in Bitcoin — [Miami mayor, Francis Suarez,](https://www.msn.com/en-us/news/world/miami-mayor-to-accept-salary-in-bitcoin/vi-AAQo7Ho) and [New York City Mayor, Eric Adams](https://www.msn.com/en-us/money/other/nyc-gets-own-cryptocurrency-after-mayor-elect-adams-touts-bitcoin/ar-AAQt0iE). In fact, Miami is the [first US city to have a cryptocurrency](https://thecryptobasic.com/2021/08/03/on-3rd-august-miami-becomes-the-first-us-city-to-launch-their-token-miami-coin-mia-to-fund-city-initiatives-and-rewards-users-in-btc/) dedicated to raising money for the municipality — MiamiCoin ($MIA). According to Adams, on Wednesday, 11/10, a coin dedicated to New York City is set to make its debut, right on the home turf of the Wall Street elite.  
-Regardless of the position you take, there is no denying that the floodgates of crypto adoption are only just squeaking open, and early adopters will ultimately reap the benefits. Let’s take a peek into what the future might look like.  
-Welcome to Cryptoville.  
-#### The Greater Good  
-![](/images/greater-good.webp)  
-In 2021, [public trust in the US government by its citizens continues to hover around historic lows](https://www.pewresearch.org/politics/2021/05/17/public-trust-in-government-1958-2021/), and for good reason. After decades of financial scandals, unfaithful politicians, and legislative decisions that continue to favor the rich and powerful, everyday citizens in America are left with much to be desired. As wage growth remains stagnant, and the cost of living continues to rise, Americans are even more conscious of where their tax dollars are going.  
-In most cases, hard-earned wages become fodder for the government’s feeding frenzy, as price tags on major legislation reach eye-popping figures. Take the [latest bill passed by Congress](https://www.cnn.com/2021/07/28/politics/infrastructure-bill-explained/index.html), which came to a whopping $1.2 trillion, and, despite what Democratic leaders might say, could tack hundreds of billions onto the deficit in the coming decade. For the average American onlooker, it’s hard to see how these improvements to infrastructure will make a positive impact on their own lives, and this continues to raise the question of whether our politicians are spending responsibly, or just lining their pockets.  
-#### Tokenizing a Metropolis  
-Enter CityCoins. [CityCoins](https://www.citycoins.co/citycoins-faq) are a cryptocurrency solution to funding community-based projects. In this groundbreaking protocol, residents of a given city have the ability to buy, mine, program, borrow, and lend these virtual currencies, and earn rewards for being stakeholders, all through smart contracts. Essentially, the solution offers a means of creating a digital, crowdfunded treasury for the city, which then rewards its citizens for taking part. According to the CityCoins website, this means that “developers can create apps that use MiamiCoin for access control (to digital or physical spaces), trading, lending, smart contract execution, and much more.” This is all part of Miami Mayor Francis Suarez’s plan to make his city a hub for Bitcoin-adoption, and, so far, he’s on the right track.  
-Beyond this, the advent of CityCoins means that citizens’ role in spending decisions extends beyond simply voting for their representatives — they can now take a front seat, and receive benefits for partaking in the process of building a virtual treasury to be used for the greater good of the city. Now, following Miami’s lead, New York City is just days away from diving into the future of cryptocurrency, and bringing transparency and communal stewardship to its own municipality.  
-#### Meet the Neighbors  
-![](/images/home-for-sale.webp)  
-Although cryptocurrency has no place in our physical world, it might end up affecting where you live within it. Just ask Vitalik Buterin, the mastermind and billionaire co-founder of the world’s second-largest crypto asset, Ethereum ($ETH).  
-In a [recent post](https://vitalik.ca/general/2021/10/31/cities.html) titled “Crypto Cities,” 27-year-old Buterin discusses the potential, and, in some cases, the need for cryptocurrencies that can make a difference on a community level. As a society that is governed from the top, many issues in the United States lay dormant, waiting for the next politician or movement to sweep them up, and take charge. Buterin, however, argues that there must be another way. By integrating cryptocurrency, along with other burgeoning technologies, like NFTs, he argues that enterprises to solve community issues from within the community itself may be more successful:  
-> *“It’s easier to find a single city where there is public interest in adopting any particular radical idea than it is to convince an entire country to accept it.”*  
-Naturally, from a citizen’s perspective, this makes perfect sense. People tend to care about the issues that impact them, and allowing citizens to have a direct say in how these issues are addressed and rectified ensures a better outcome.  
-Buterin continues to outline projects that are already making an impact. One of the more radical is CityDAO, [an enterprise that seeks to build a Crypto City from scratch](https://www.citydao.io/#Section-2) in Wyoming. Per their website, enthusiasts (and future residents) can mint their citizenship for a measly 0.25 Ethereum, approximately $1,200 at the time of this writing. This also raises questions on a variety of fronts, including how to handle property rights, governance, and more in a new Crypto City.  
-The Ethereum co-founder is not the only one with his eyes on a futuristic, Crypto City. In fact, world-famous music artist and philanthropist, Akon, is at the head of a new effort to [build a city in Senegal entirely powered by cryptocurrency.](https://thebitcoinnews.com/akon-crypto-city-gets-the-green-light/) This project includes its own coin, aptly named “Akoin,” which will serve as its reserve currency. The effort finds itself on steady ground — [three African countries already chart on the Top 20 Crypto Adoption Index](https://bitcoinmagazine.com/business/africa-leading-retail-bitcoin-payments). In this case, the use of Bitcoin and other cryptocurrencies serves as a reprieve from floundering national currencies grappling with hyper inflation, and allows crypto-users to avoid the cost and reduce the speed of transferring funds across borders.  
-#### Food for Thought  
-![](/images/toyota.webp)  
-So, what does this all mean? Are we going to live out our inevitable, Sci-Fi-induced nightmare in which hackers run the world? Not quite. Let’s explore some ways that change can be made in our new home, Cryptoville.  
-As a New York City resident, one of my ever-present grievances is the widespread pollution and litter that I see on a daily basis. Of course, I do my part to ensure that I make as little mess as possible, but, as a single person, I can only do so much. So, what if there were a way to encourage people to do the right thing, and to clean up our city? In Cryptoville, anything is possible!  
-This is where we might see an implementation of CityCoin. Citizens would be rewarded for each pound of trash or litter they collect in the form of NYCoins. With these NYCoins, citizens can then reap other benefits — perhaps a free ride on the subway, or entrance to an NYC-hosted event in the future. It is the compounding of these incentives that will spur people to take action, not only because of the potential for rewards, but because it truly does take all of us to make a difference.  
-Another major way that the system can be simplified is by tracking assets with NFTs. It is no secret that, in the bureaucratic nightmare that envelops most cities, processes are often over-complicated, and incredibly inefficient. Here, I will draw on a personal experience in my endorsement of crypto solutions to common problems.  
-After selling my car recently, I was informed that I would be fined because I hadn’t notified the DMV that I was no longer the owner of the car. Imagine tokenizing the title to the car, and putting it on the blockchain. Now, we have a unique asset on the blockchain that can be tracked from its genesis, and can be transacted via smart contracts between parties. In this case, when I sold my car, the NFT would have then been transferred to the new owner, and the blockchain would not only have reflected this change, but also would have been impervious to hacking and human error. All the pains of selling your car, taken care of in record time!  
-### **The Final Word**  
-Of course, the possibilities are endless, and it is quite fun to imagine what life will be like in 5 years, when Cryptoville is even closer to home than it is now. One thing is for sure — integrating cryptocurrency, blockchain, NFTs, DAOs, and other leading technologies into our society can, and will, solve many problems. It will allow us to deal with them on a micro, community-based level. It will allow us to fund them, and allow contributors to be rewarded for supporting the greater good. Finally, it will allow us to transact more honestly, efficiently, and equitably with each other.  
+Original article [published Nov. 8, 2021 via Medium](https://michaeljanschiumo.medium.com/welcome-to-cryptoville-fed7aabf1157).
+
+---
+
+#### A New Future
+
+As Bitcoin leads crypto markets to new all-time highs, it seems that the movement to digitalize our financial world continues to perplex, and polarize.
+
+On one side, the “Oracle of Omaha,” Warren Buffet, [once called Bitcoin “rat poison squared,”](https://finance.yahoo.com/news/why-warren-buffett-hates-bitcoin-220000544.html) continuing on to say that it “is not a durable means of exchange.” Other conservatives seem to agree with Buffet — Jamie Dimon, CEO of JP Morgan, [decried the flagship cryptocurrency as “worthless.”](https://www.cnbc.com/2021/10/11/jpmorgan-chase-ceo-jamie-dimon-says-bitcoin-is-worthless.html)
+
+Despite harsh criticism from some of the largest personalities in the Financial Services Industry, new faces have arrived in the fight to utilize crypto for the greater good. Within hours of polls closing and vote-counts finalizing, two mayors of major US cities announced that they would be accepting their salaries in Bitcoin — [Miami mayor, Francis Suarez,](https://www.msn.com/en-us/news/world/miami-mayor-to-accept-salary-in-bitcoin/vi-AAQo7Ho) and [New York City Mayor, Eric Adams](https://www.msn.com/en-us/money/other/nyc-gets-own-cryptocurrency-after-mayor-elect-adams-touts-bitcoin/ar-AAQt0iE). In fact, Miami is the [first US city to have a cryptocurrency](https://thecryptobasic.com/2021/08/03/on-3rd-august-miami-becomes-the-first-us-city-to-launch-their-token-miami-coin-mia-to-fund-city-initiatives-and-rewards-users-in-btc/) dedicated to raising money for the municipality — MiamiCoin ($MIA). According to Adams, on Wednesday, 11/10, a coin dedicated to New York City is set to make its debut, right on the home turf of the Wall Street elite.
+
+Regardless of the position you take, there is no denying that the floodgates of crypto adoption are only just squeaking open, and early adopters will ultimately reap the benefits. Let’s take a peek into what the future might look like.
+
+Welcome to Cryptoville.
+
+---
+
+#### The Greater Good
+
+![](/images/greater-good.webp)
+
+In 2021, [public trust in the US government by its citizens continues to hover around historic lows](https://www.pewresearch.org/politics/2021/05/17/public-trust-in-government-1958-2021/), and for good reason. After decades of financial scandals, unfaithful politicians, and legislative decisions that continue to favor the rich and powerful, everyday citizens in America are left with much to be desired. As wage growth remains stagnant, and the cost of living continues to rise, Americans are even more conscious of where their tax dollars are going.
+
+In most cases, hard-earned wages become fodder for the government’s feeding frenzy, as price tags on major legislation reach eye-popping figures. Take the [latest bill passed by Congress](https://www.cnn.com/2021/07/28/politics/infrastructure-bill-explained/index.html), which came to a whopping $1.2 trillion, and, despite what Democratic leaders might say, could tack hundreds of billions onto the deficit in the coming decade. For the average American onlooker, it’s hard to see how these improvements to infrastructure will make a positive impact on their own lives, and this continues to raise the question of whether our politicians are spending responsibly, or just lining their pockets.
+
+---
+
+#### Tokenizing a Metropolis
+
+Enter CityCoins. [CityCoins](https://www.citycoins.co/citycoins-faq) are a cryptocurrency solution to funding community-based projects. In this groundbreaking protocol, residents of a given city have the ability to buy, mine, program, borrow, and lend these virtual currencies, and earn rewards for being stakeholders, all through smart contracts. Essentially, the solution offers a means of creating a digital, crowdfunded treasury for the city, which then rewards its citizens for taking part. According to the CityCoins website, this means that “developers can create apps that use MiamiCoin for access control (to digital or physical spaces), trading, lending, smart contract execution, and much more.” This is all part of Miami Mayor Francis Suarez’s plan to make his city a hub for Bitcoin-adoption, and, so far, he’s on the right track.
+
+Beyond this, the advent of CityCoins means that citizens’ role in spending decisions extends beyond simply voting for their representatives — they can now take a front seat, and receive benefits for partaking in the process of building a virtual treasury to be used for the greater good of the city. Now, following Miami’s lead, New York City is just days away from diving into the future of cryptocurrency, and bringing transparency and communal stewardship to its own municipality.
+
+---
+
+#### Meet the Neighbors
+
+![](/images/home-for-sale.webp)
+
+Although cryptocurrency has no place in our physical world, it might end up affecting where you live within it. Just ask Vitalik Buterin, the mastermind and billionaire co-founder of the world’s second-largest crypto asset, Ethereum ($ETH).
+
+In a [recent post](https://vitalik.ca/general/2021/10/31/cities.html) titled “Crypto Cities,” 27-year-old Buterin discusses the potential, and, in some cases, the need for cryptocurrencies that can make a difference on a community level. As a society that is governed from the top, many issues in the United States lay dormant, waiting for the next politician or movement to sweep them up, and take charge. Buterin, however, argues that there must be another way. By integrating cryptocurrency, along with other burgeoning technologies, like NFTs, he argues that enterprises to solve community issues from within the community itself may be more successful:
+
+> *“It’s easier to find a single city where there is public interest in adopting any particular radical idea than it is to convince an entire country to accept it.”*
+
+Naturally, from a citizen’s perspective, this makes perfect sense. People tend to care about the issues that impact them, and allowing citizens to have a direct say in how these issues are addressed and rectified ensures a better outcome.
+
+Buterin continues to outline projects that are already making an impact. One of the more radical is CityDAO, [an enterprise that seeks to build a Crypto City from scratch](https://www.citydao.io/#Section-2) in Wyoming. Per their website, enthusiasts (and future residents) can mint their citizenship for a measly 0.25 Ethereum, approximately $1,200 at the time of this writing. This also raises questions on a variety of fronts, including how to handle property rights, governance, and more in a new Crypto City.
+
+The Ethereum co-founder is not the only one with his eyes on a futuristic, Crypto City. In fact, world-famous music artist and philanthropist, Akon, is at the head of a new effort to [build a city in Senegal entirely powered by cryptocurrency.](https://thebitcoinnews.com/akon-crypto-city-gets-the-green-light/) This project includes its own coin, aptly named “Akoin,” which will serve as its reserve currency. The effort finds itself on steady ground — [three African countries already chart on the Top 20 Crypto Adoption Index](https://bitcoinmagazine.com/business/africa-leading-retail-bitcoin-payments). In this case, the use of Bitcoin and other cryptocurrencies serves as a reprieve from floundering national currencies grappling with hyper inflation, and allows crypto-users to avoid the cost and reduce the speed of transferring funds across borders.
+
+---
+
+#### Food for Thought
+
+![](/images/toyota.webp)
+
+So, what does this all mean? Are we going to live out our inevitable, Sci-Fi-induced nightmare in which hackers run the world? Not quite. Let’s explore some ways that change can be made in our new home, Cryptoville.
+
+As a New York City resident, one of my ever-present grievances is the widespread pollution and litter that I see on a daily basis. Of course, I do my part to ensure that I make as little mess as possible, but, as a single person, I can only do so much. So, what if there were a way to encourage people to do the right thing, and to clean up our city? In Cryptoville, anything is possible!
+
+This is where we might see an implementation of CityCoin. Citizens would be rewarded for each pound of trash or litter they collect in the form of NYCoins. With these NYCoins, citizens can then reap other benefits — perhaps a free ride on the subway, or entrance to an NYC-hosted event in the future. It is the compounding of these incentives that will spur people to take action, not only because of the potential for rewards, but because it truly does take all of us to make a difference.
+
+Another major way that the system can be simplified is by tracking assets with NFTs. It is no secret that, in the bureaucratic nightmare that envelops most cities, processes are often over-complicated, and incredibly inefficient. Here, I will draw on a personal experience in my endorsement of crypto solutions to common problems.
+
+After selling my car recently, I was informed that I would be fined because I hadn’t notified the DMV that I was no longer the owner of the car. Imagine tokenizing the title to the car, and putting it on the blockchain. Now, we have a unique asset on the blockchain that can be tracked from its genesis, and can be transacted via smart contracts between parties. In this case, when I sold my car, the NFT would have then been transferred to the new owner, and the blockchain would not only have reflected this change, but also would have been impervious to hacking and human error. All the pains of selling your car, taken care of in record time!
+
+---
+
+### **The Final Word**
+
+Of course, the possibilities are endless, and it is quite fun to imagine what life will be like in 5 years, when Cryptoville is even closer to home than it is now. One thing is for sure — integrating cryptocurrency, blockchain, NFTs, DAOs, and other leading technologies into our society can, and will, solve many problems. It will allow us to deal with them on a micro, community-based level. It will allow us to fund them, and allow contributors to be rewarded for supporting the greater good. Finally, it will allow us to transact more honestly, efficiently, and equitably with each other.
+
 What’s your hope for the next big thing in Cryptoville? I’m looking for a nice plot of land in a remote region of New Jersey that might just make a quaint Crypto City.

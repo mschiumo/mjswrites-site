@@ -8,24 +8,50 @@ heroImage: "/images/mh-1.webp"
 originalUrl: "https://mjswrites.com/blog/f/why-mental-health-matters"
 ---
 
-> *Get your*[ *copy of my memoir*](https://a.co/d/a2KECBM)*, (In)Sane, today to learn more about Bipolar and my journey to overcome.*  
-Mental Illness is inarguably one of the most-pressing crises facing society in 2023. Due to a multitude of factors, including Social Media and increasing external social pressures, rates of suicide, self-harm, and psychiatric hospitalizations are rising. Check out my article on the state of [Mental Health in America](https://medium.com/@amanicmillennial/mental-health-in-america-afc0beded96c) here to learn more.  
-Unfortunately, the severity of this crisis is exacerbated by the stigma that is often attached to Mental Illness. Not only is it a topic that is widely considered ‘taboo,’ but there are many who do not believe that Mental Illness is a recognizable disease. This is harmful in many ways, but most importantly, it creates inertia for those who are suffering to open up about their struggles, and ultimately seek help.  
-As I have become more vocal about my own journey with Mental Health, I have encountered what seems to be a common trope for those who have little experience with Mental Illness — shock. Many people who were close to me during some of the toughest moments of my life were completely unaware of the difficulties that I was facing, mainly because of my ability to mask the symptoms. This is a common tool used by many who strive to maintain the outward impression of stability, but are in desperate need of an outlet to seek help and solace in others.  
-The only way to avert this crisis is to speak more openly about how these issues impact not only sufferers, but society as a whole.  
-# **Social Stigma**  
-![](/images/social-stigma.webp)  
-When it comes to talking about Mental Health, many find it difficult to breach the topic due to the stigma attached to it. In fact, [1 in 3 men say that their feelings of embarrassment surrounding their mental state](https://www.mintel.com/press-centre/the-uncomfortable-truth-a-third-of-men-aged-16-34-are-too-embarrassed-to-seek-help-for-mental-health-issues/#:~:text=Meanwhile%2C%20less%20than%20half%20(47,sadness%20with%20anyone%20at%20all.) would prevent them from opening up about their issues. So, in a world so driven by social perception, what can we do to make this vital conversation more approachable?  
-Oftentimes, we do not see Mental Illness as a disease in the same way that we view cancer, heart disease, and other physical ailments. This is partially due to the issue that I address above — Mental Illness is not always manifest physically, and can go undetected by others. However, the consequences of undiagnosed and untreated Mental Illness can be just as severe as other maladies prevalent in our society.  
-According to Mental Health America, [nearly 50 million Americans suffer](https://mhanational.org/issues/2022/mental-health-america-adult-data#:~:text=Adult%20Prevalence%20of%20Mental%20Illness%20(AMI)%202022&text=19.86%25%20of%20adults%20are%20experiencing,experiencing%20a%20severe%20mental%20illness.) from symptoms of Mental Illness. This is more than double the population of Americans suffering from heart disease, which accounts for [more than 18 million in the US](https://www.healthline.com/health/heart-disease/statistics#:~:text=Coronary%20heart%20disease%20affects%20about,23.5%20percent%20in%20Black%20people.). I personally feel that another reason why Mental Illness is not fully understood is that people view it as something that affects a small percentage of people, which is far from the truth.  
-In the wake of the pandemic, increasing usage of social media, and other environmental factors, [diagnoses of Mental Illness are rising significantly](https://www.health.com/condition/depression/8-million-americans-psychological-distress#:~:text=Mental%20health%20disorders%20have%20risen,units%20and%20less%20community%20involvement.). Therefore, it is more important than ever to not only promote awareness of the dangers of this disease, but to better educate people on how to grapple with its repercussions.  
-# **How You Can Help**  
-![](/images/hotlie.webp)  
-As someone who personally struggles with Bipolar Disorder, I am often asked by others what they can do to help. More often than not, my answer is — your concern is all that I need. Dealing with Mental Illness is often a lonely journey, and beyond medication and therapy, it is up to the individual to take control of their treatment.  
-Nonetheless, there are ways to help friends and family going through difficult times. The first is to do what I call “wellness checks.” These do not have to be formal in nature; a quick text or phone call is all that is needed to let that person know that you support them. The topic of conversation does not have to revolve around Mental Health, either. Simply knowing that someone cares is enough to boost someone’s spirits, and show them that you support them in their journey to healing.  
-Additionally, if you feel that someone you care about is in a dangerous mental state that may cause harm to themselves or others, it is important to know that resources exist for this purpose. [Sites like this](https://adelbkorkorfoundation.org/resources/?gclid=Cj0KCQjwj5mpBhDJARIsAOVjBdpb4wD8cRK72ajVgV88Z_MbtpAUsa5Ct_agIVExlpBbyc8_RYLbgD8aAtRwEALw_wcB) provide an extensive list of hotlines and other important information that can be critical in dire circumstances.  
-Finally, doing your part to learn more about Mental Illness is invaluable. This will not only allow you to identify certain signs, but to better empathize with your loved one, even if you have not experienced what they are going through personally.  
-Never underestimate your ability to positively impact someone’s life. You never know whether your support in that moment could be the difference between someone seeking help, or further harming themselves.  
-# **The Final Word**  
-Opening up about Mental Illness can be extremely daunting. Indeed, I suffered silently through most of my life before being diagnosed with Bipolar as an adult. Now that we understand the causes and treatments for Mental Illness better than ever, it is important to spread awareness on this topic to drive further breakthroughs, and help those who suffer to be more comfortable coming forward and receiving the help that they need.  
+> *Get your*[ *copy of my memoir*](https://a.co/d/a2KECBM)*, (In)Sane, today to learn more about Bipolar and my journey to overcome.*
+
+Mental Illness is inarguably one of the most-pressing crises facing society in 2023. Due to a multitude of factors, including Social Media and increasing external social pressures, rates of suicide, self-harm, and psychiatric hospitalizations are rising. Check out my article on the state of [Mental Health in America](https://medium.com/@amanicmillennial/mental-health-in-america-afc0beded96c) here to learn more.
+
+Unfortunately, the severity of this crisis is exacerbated by the stigma that is often attached to Mental Illness. Not only is it a topic that is widely considered ‘taboo,’ but there are many who do not believe that Mental Illness is a recognizable disease. This is harmful in many ways, but most importantly, it creates inertia for those who are suffering to open up about their struggles, and ultimately seek help.
+
+As I have become more vocal about my own journey with Mental Health, I have encountered what seems to be a common trope for those who have little experience with Mental Illness — shock. Many people who were close to me during some of the toughest moments of my life were completely unaware of the difficulties that I was facing, mainly because of my ability to mask the symptoms. This is a common tool used by many who strive to maintain the outward impression of stability, but are in desperate need of an outlet to seek help and solace in others.
+
+The only way to avert this crisis is to speak more openly about how these issues impact not only sufferers, but society as a whole.
+
+---
+
+# **Social Stigma**
+
+![](/images/social-stigma.webp)
+
+When it comes to talking about Mental Health, many find it difficult to breach the topic due to the stigma attached to it. In fact, [1 in 3 men say that their feelings of embarrassment surrounding their mental state](https://www.mintel.com/press-centre/the-uncomfortable-truth-a-third-of-men-aged-16-34-are-too-embarrassed-to-seek-help-for-mental-health-issues/#:~:text=Meanwhile%2C%20less%20than%20half%20(47,sadness%20with%20anyone%20at%20all.) would prevent them from opening up about their issues. So, in a world so driven by social perception, what can we do to make this vital conversation more approachable?
+
+Oftentimes, we do not see Mental Illness as a disease in the same way that we view cancer, heart disease, and other physical ailments. This is partially due to the issue that I address above — Mental Illness is not always manifest physically, and can go undetected by others. However, the consequences of undiagnosed and untreated Mental Illness can be just as severe as other maladies prevalent in our society.
+
+According to Mental Health America, [nearly 50 million Americans suffer](https://mhanational.org/issues/2022/mental-health-america-adult-data#:~:text=Adult%20Prevalence%20of%20Mental%20Illness%20(AMI)%202022&text=19.86%25%20of%20adults%20are%20experiencing,experiencing%20a%20severe%20mental%20illness.) from symptoms of Mental Illness. This is more than double the population of Americans suffering from heart disease, which accounts for [more than 18 million in the US](https://www.healthline.com/health/heart-disease/statistics#:~:text=Coronary%20heart%20disease%20affects%20about,23.5%20percent%20in%20Black%20people.). I personally feel that another reason why Mental Illness is not fully understood is that people view it as something that affects a small percentage of people, which is far from the truth.
+
+In the wake of the pandemic, increasing usage of social media, and other environmental factors, [diagnoses of Mental Illness are rising significantly](https://www.health.com/condition/depression/8-million-americans-psychological-distress#:~:text=Mental%20health%20disorders%20have%20risen,units%20and%20less%20community%20involvement.). Therefore, it is more important than ever to not only promote awareness of the dangers of this disease, but to better educate people on how to grapple with its repercussions.
+
+---
+
+# **How You Can Help**
+
+![](/images/hotlie.webp)
+
+As someone who personally struggles with Bipolar Disorder, I am often asked by others what they can do to help. More often than not, my answer is — your concern is all that I need. Dealing with Mental Illness is often a lonely journey, and beyond medication and therapy, it is up to the individual to take control of their treatment.
+
+Nonetheless, there are ways to help friends and family going through difficult times. The first is to do what I call “wellness checks.” These do not have to be formal in nature; a quick text or phone call is all that is needed to let that person know that you support them. The topic of conversation does not have to revolve around Mental Health, either. Simply knowing that someone cares is enough to boost someone’s spirits, and show them that you support them in their journey to healing.
+
+Additionally, if you feel that someone you care about is in a dangerous mental state that may cause harm to themselves or others, it is important to know that resources exist for this purpose. [Sites like this](https://adelbkorkorfoundation.org/resources/?gclid=Cj0KCQjwj5mpBhDJARIsAOVjBdpb4wD8cRK72ajVgV88Z_MbtpAUsa5Ct_agIVExlpBbyc8_RYLbgD8aAtRwEALw_wcB) provide an extensive list of hotlines and other important information that can be critical in dire circumstances.
+
+Finally, doing your part to learn more about Mental Illness is invaluable. This will not only allow you to identify certain signs, but to better empathize with your loved one, even if you have not experienced what they are going through personally.
+
+Never underestimate your ability to positively impact someone’s life. You never know whether your support in that moment could be the difference between someone seeking help, or further harming themselves.
+
+---
+
+# **The Final Word**
+
+Opening up about Mental Illness can be extremely daunting. Indeed, I suffered silently through most of my life before being diagnosed with Bipolar as an adult. Now that we understand the causes and treatments for Mental Illness better than ever, it is important to spread awareness on this topic to drive further breakthroughs, and help those who suffer to be more comfortable coming forward and receiving the help that they need.
+
 So, if you are concerned about yourself or a loved one suffering through Mental Illness, breach the topic. One conversation can change someone’s life forever, and progress all starts with the courage to speak out.
