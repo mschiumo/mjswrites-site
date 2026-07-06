@@ -8,16 +8,36 @@ heroImage: "/images/reactjs.png"
 originalUrl: "https://mjswrites.com/blog/f/how-to-make-the-jump-%E2%80%94-ember-to-react-migration"
 ---
 
-As Ember JS becomes less popular in the battle for superiority between frontend frameworks, migrating to React JS may be a consideration worth making for yourself and your team. This endeavor, however, does not come without challenges. Making the change from Ember to React will be a lengthy process, as React both replaces and integrates into your existing codebase. Let’s take a look at why this is a huge step for programmers, and why it will ensure a superior user experience in the future.  
-#### **Out with the Old**  
-Although Ember has been utilized by thousands of organizations and even more developers since its inception in 2011, the framework has slowly fallen behind more-modern frameworks and libraries, like React, Angular, and Vue, in recent years. This comes with an additional consequence, which is the limited documentation and resources surrounding the platform in comparison to these newer frameworks. For example, React boasts weekly downloads of its library on NPM of more than 20 million; Ember only manages approximately 150,000 per week. Beyond the simple figures of downloads, this also means that there are less resources in the form of forums, blog posts, and experienced Ember programmers, which can make life for organizations and individuals looking to make the transition more difficult.  
-# **React vs. Ember**  
-When choosing between two frameworks, it is important to recognize the distinct advantages and disadvantages that each respective choice offers. In terms of convention, Ember is generally seen as much more opinionated than React, meaning that your codebase will be much more rigid in terms of structure. This can be seen as both a positive and a negative; in this case, I have long been a proponent of the structure that defines Ember, and it will certainly be an adjustment to migrate to the more-flexible nature of React.  
-A significant advantage of using Ember is the power of Ember Data, and its ability to manage state using the store. Developers rejoice in the *magic* of Ember Data, and the countless ways to customize serializers, adapters, and other components built on the JSON API to manage incoming and outgoing data within the application. This is in contrast to the way in which data and state are handled by React, which requires much more explicit state management via props and reducers due to a lack of infrastructure to handle data flow.  
-Another important distinction between Ember and React is the difference in architecture. As a framework, Ember adheres to the Model-View-Controller architecture, which generally allows for a better separation of concerns in terms of organizing logic within large-scale applications, making the process of modifying and debugging code much simpler and more efficient. Conversely, the React library adheres to a View architecture, which requires additional third-party add-ons for state management and routing.  
-# **Integrating React into Ember**  
-Slowly integrating new React components into an existing Ember codebase is the path forward for most teams and developers.  
-It is important to note that React is built on JSX, which allows developers to write HTML by creating elements in React. Therefore, adding additional dependencies, such as [react-dom](https://www.npmjs.com/package/react-dom), is a necessity when injecting React components into the Ember framework. Nevertheless, it is still possible to create React components as Glimmer components within Ember, a process which is best suited for a monorepo.  
-There is certainly a learning curve in moving from Ember to React. For instance, features used for state management in Ember, such as tracked properties, do not exist in React, and, therefore, the use of another library, like Redux, is necessary to manage state in React components. These are considerations that must be taken into account in this transitory period.  
-# **The Final Word**  
+As Ember JS becomes less popular in the battle for superiority between frontend frameworks, migrating to React JS may be a consideration worth making for yourself and your team. This endeavor, however, does not come without challenges. Making the change from Ember to React will be a lengthy process, as React both replaces and integrates into your existing codebase. Let’s take a look at why this is a huge step for programmers, and why it will ensure a superior user experience in the future.
+
+---
+
+#### **Out with the Old**
+
+Although Ember has been utilized by thousands of organizations and even more developers since its inception in 2011, the framework has slowly fallen behind more-modern frameworks and libraries, like React, Angular, and Vue, in recent years. This comes with an additional consequence, which is the limited documentation and resources surrounding the platform in comparison to these newer frameworks. For example, React boasts weekly downloads of its library on NPM of more than 20 million; Ember only manages approximately 150,000 per week. Beyond the simple figures of downloads, this also means that there are less resources in the form of forums, blog posts, and experienced Ember programmers, which can make life for organizations and individuals looking to make the transition more difficult.
+
+---
+
+# **React vs. Ember**
+
+When choosing between two frameworks, it is important to recognize the distinct advantages and disadvantages that each respective choice offers. In terms of convention, Ember is generally seen as much more opinionated than React, meaning that your codebase will be much more rigid in terms of structure. This can be seen as both a positive and a negative; in this case, I have long been a proponent of the structure that defines Ember, and it will certainly be an adjustment to migrate to the more-flexible nature of React.
+
+A significant advantage of using Ember is the power of Ember Data, and its ability to manage state using the store. Developers rejoice in the *magic* of Ember Data, and the countless ways to customize serializers, adapters, and other components built on the JSON API to manage incoming and outgoing data within the application. This is in contrast to the way in which data and state are handled by React, which requires much more explicit state management via props and reducers due to a lack of infrastructure to handle data flow.
+
+Another important distinction between Ember and React is the difference in architecture. As a framework, Ember adheres to the Model-View-Controller architecture, which generally allows for a better separation of concerns in terms of organizing logic within large-scale applications, making the process of modifying and debugging code much simpler and more efficient. Conversely, the React library adheres to a View architecture, which requires additional third-party add-ons for state management and routing.
+
+---
+
+# **Integrating React into Ember**
+
+Slowly integrating new React components into an existing Ember codebase is the path forward for most teams and developers.
+
+It is important to note that React is built on JSX, which allows developers to write HTML by creating elements in React. Therefore, adding additional dependencies, such as [react-dom](https://www.npmjs.com/package/react-dom), is a necessity when injecting React components into the Ember framework. Nevertheless, it is still possible to create React components as Glimmer components within Ember, a process which is best suited for a monorepo.
+
+There is certainly a learning curve in moving from Ember to React. For instance, features used for state management in Ember, such as tracked properties, do not exist in React, and, therefore, the use of another library, like Redux, is necessary to manage state in React components. These are considerations that must be taken into account in this transitory period.
+
+---
+
+# **The Final Word**
+
 Although initially, the process of migrating from Ember to React may seem a formidable task, it will ultimately yield dividends for developers who want to stay abreast of the latest technologies, and take advantage of documentation and resources that are currently sparse in regards to Ember. Don’t get discouraged, it will be over before you know it. Happy Coding!
