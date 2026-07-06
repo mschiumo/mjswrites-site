@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Lightbox from '../components/Lightbox.astro';
 import SocialIcon from '../components/SocialIcon.astro';
 import { getPosts, postUrl, readMinutes, monthYear } from '../lib/posts';
 import { SOCIALS, ETSY_LISTING } from '../lib/socials';
@@ -135,9 +136,9 @@ const POEM_PHOTOS = [
       </div>
       <div class="gallery-grid">
         {POEM_PHOTOS.map((p) => (
-          <a href={ETSY_LISTING} target="_blank" rel="noopener" class="gallery-item">
+          <button type="button" class="gallery-item" data-lightbox-src={p.img} data-lightbox-alt={p.alt} aria-label={`View larger: ${p.alt}`}>
             <img src={p.img} alt={p.alt} />
-          </a>
+          </button>
         ))}
       </div>
     </div>
@@ -202,6 +203,7 @@ const POEM_PHOTOS = [
     </div>
   </section>
 
+  <Lightbox />
 </Base>
 
 <style>
@@ -415,6 +417,11 @@ const POEM_PHOTOS = [
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 12px 30px rgba(44, 35, 32, 0.16);
+    border: 0;
+    padding: 0;
+    background: none;
+    cursor: zoom-in;
+    width: 100%;
   }
   .gallery-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s ease; }
   .gallery-item:hover img { transform: scale(1.05); }
