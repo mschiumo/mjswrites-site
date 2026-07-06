@@ -5,16 +5,10 @@ date: 2024-02-02
 categories: ["Mental Health"]
 excerpt: "When I was in the early stages of recovery from my manic episode in 2018, I would constantly question just how impactful this diagnosis, and this disease, would be on my future. Nearly 6 years later, I’m still not sure, ..."
 heroImage: "/images/all-3.jpeg"
+heroCaption: "Click here to find my books, including my latest, words to love by, on Amazon"
+heroCaptionUrl: "https://www.amazon.com/stores/author/B0CJ3ZB9GK/allbooks?ingress=0&visitId=8459d381-8ac8-433f-b578-f7a88a6e1f83&ref_=ap_rdr"
 originalUrl: "https://mjswrites.com/blog/f/speak-now-or-forever-seek-your-peace"
 ---
-
-[
-
-![](/images/all-3.jpeg)
-
-Click here to find my books, including my latest, words to love by, on Amazon
-
-](https://www.amazon.com/stores/author/B0CJ3ZB9GK/allbooks?ingress=0&visitId=8459d381-8ac8-433f-b578-f7a88a6e1f83&ref_=ap_rdr)
 
 When I was in the early stages of recovery from my manic episode in 2018, I would constantly question just how impactful this diagnosis, and this disease, would be on my future. Nearly 6 years later, I’m still not sure, but the picture is certainly much clearer.
 

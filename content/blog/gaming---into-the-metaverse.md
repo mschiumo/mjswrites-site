@@ -5,16 +5,10 @@ date: 2022-11-03
 categories: ["Tech"]
 excerpt: "Well, it’s official — we are one step closer to leaving the physical world behind, and embracing our new lives in the digital world. This exciting, and frankly scary, world is known as the metaverse, a term coined by Ame..."
 heroImage: "/images/metaverse.jpeg"
+heroCaption: "Welcome to the Metaverse"
+heroCaptionUrl: "https://michaeljanschiumo.medium.com/gaming-into-the-metaverse-85a87bf3f4d0"
 originalUrl: "https://mjswrites.com/blog/f/gaming---into-the-metaverse"
 ---
-
-[
-
-![](/images/metaverse.jpeg)
-
-Welcome to the Metaverse
-
-](https://michaeljanschiumo.medium.com/gaming-into-the-metaverse-85a87bf3f4d0)
 
 Well, it’s official — we are one step closer to leaving the physical world behind, and embracing our new lives in the digital world. This exciting, and frankly scary, world is known as the *metaverse,* a term coined by American writer **Neal Stephenson** in his science-fiction novel, *Snow Crash.* The term may seem difficult to understand at first, but it can be defined simply as:
 

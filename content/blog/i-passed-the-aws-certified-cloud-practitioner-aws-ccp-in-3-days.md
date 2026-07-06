@@ -5,16 +5,10 @@ date: 2022-11-03
 categories: ["Tech"]
 excerpt: "As someone who is making his first foray into Tech, I am always looking for ways to give me an edge, and demonstrate that I have the ability to learn new things quickly and effectively. I have been advised several times ..."
 heroImage: "/images/aws-cert.png"
+heroCaption: "AWS Certified Cloud Practitioner"
+heroCaptionUrl: "https://michaeljanschiumo.medium.com/i-passed-the-aws-certified-cloud-practitioner-aws-ccp-in-3-days-heres-how-7b33d6d94f41"
 originalUrl: "https://mjswrites.com/blog/f/i-passed-the-aws-certified-cloud-practitioner-aws-ccp-in-3-days"
 ---
-
-[
-
-![](/images/aws-cert.png)
-
-AWS Certified Cloud Practitioner
-
-](https://michaeljanschiumo.medium.com/i-passed-the-aws-certified-cloud-practitioner-aws-ccp-in-3-days-heres-how-7b33d6d94f41)
 
 As someone who is making his first foray into Tech, I am always looking for ways to give me an edge, and demonstrate that I have the ability to learn new things quickly and effectively. I have been advised several times recently to look into sitting for a Cloud certification. Due to the fact that AWS is the industry-leading Cloud Services Provider (edging out Microsoft Azure and Google Cloud), I decided that the AWS CCP was a good place to start.
 

@@ -16,9 +16,10 @@ It appears that, of all of the enemies that Donald Trump has had over the years,
 
 #### Self-Induced Outrage
 
-![](/images/bondi-.webp)
-
-MAGA influencers hold up the 'Epstein files'
+<figure>
+  <img src="/images/bondi-.webp" alt="MAGA influencers hold up the 'Epstein files'" />
+  <figcaption>MAGA influencers hold up the 'Epstein files'</figcaption>
+</figure>
 
 One of the flagship promises of Trump's presidential campaigns over the years has been the uncovering and assault on the 'Deep State,' the shadowy group of individuals who are purportedly pulling the strings in Washington, according to MAGA conspiracy theorists. Chief among these conspiracies was the one surrounding the alleged suicide of notorious child sex trafficker and close, personal friend of Trump, Jeffrey Epstein. In fact, when asked about the Epstein case [during his confirmation hearing as Director of the FBI](https://www.rev.com/transcripts/kash-patel-confirmation-hearing), Patel said, 'Child sex trafficking has no place in the United States of America...I will do everything, if confirmed as FBI Director, to make sure the American public knows the full weight of what happened in the past.' This call was further echoed by the far-right conspiracy theorist and now Deputy FBI Director, Dan Bongino, who was so infuriated by recent developments in the Epstein saga that [he failed to show up for work](https://www.nbcnews.com/politics/justice-department/dan-bongino-weighs-resigning-fbi-heated-confrontation-pam-bondi-epstei-rcna218388) the next day amid rumors that he was considering resigning.
 

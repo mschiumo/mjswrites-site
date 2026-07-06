@@ -5,10 +5,9 @@ date: 2026-02-11
 categories: ["Politics"]
 excerpt: "America, how far we've fallen. I often receive criticism for expressing my feelings of regret and disdain for what is currently transpiring in the United States. It seems I'm not the only one. "
 heroImage: "/images/files.jpg"
+heroCaption: "The Epstein Files"
 originalUrl: "https://mjswrites.com/blog/f/how-far-weve-fallen"
 ---
-
-The Epstein Files
 
 America, how far we've fallen. I often receive criticism for expressing my feelings of regret and disdain for what is currently transpiring in the United States. It seems [I'm not the only one](https://www.newsweek.com/sports/full-list-of-us-olympians-criticizing-trump-admin-11490755).
 

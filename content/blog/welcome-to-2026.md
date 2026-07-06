@@ -16,9 +16,10 @@ Let's dive into how the world changed in its last orbit around the sun, and what
 
 #### An Empire in Decline
 
-![](/images/big-stick-.webp)
-
-America's 'Big Stick'
+<figure>
+  <img src="/images/big-stick-.webp" alt="America's 'Big Stick'" />
+  <figcaption>America's 'Big Stick'</figcaption>
+</figure>
 
 As an American citizen, I have seen significant shifts in how I perceive our society, as well as concern from others around the world at what is transpiring here. Never has it become clearer that, in the United States, the wealthy elite play by a different set of rules than the rest of us, and the President is no exception.
 

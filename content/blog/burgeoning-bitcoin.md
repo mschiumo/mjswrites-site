@@ -5,16 +5,10 @@ date: 2022-11-03
 categories: ["Tech"]
 excerpt: "Currency is an interesting concept. Essentially, in 2021, our money holds value mostly because we believe that it holds value. Today, the rise of cryptocurrencies, like Bitcoin (BTC), has challenged us to reaffirm our co..."
 heroImage: "/images/burgeoning-bitcoin.jpeg"
+heroCaption: "Bitcoin, the world's apex digital currency"
+heroCaptionUrl: "https://michaeljanschiumo.medium.com/burgeoning-bitcoin-d0669e4d4ed5"
 originalUrl: "https://mjswrites.com/blog/f/burgeoning-bitcoin"
 ---
-
-[
-
-![](/images/burgeoning-bitcoin.jpeg)
-
-Bitcoin, the world's apex digital currency
-
-](https://michaeljanschiumo.medium.com/burgeoning-bitcoin-d0669e4d4ed5)
 
 Currency is an interesting concept. Essentially, in 2021, our money holds value mostly because we believe that it holds value. Today, the rise of cryptocurrencies, like Bitcoin (BTC), has challenged us to reaffirm our conceptual understanding of the fiat-currency paradigm, and why it might not be feasible in the near future. Bitcoin, which only exists somewhere in the ether, is making a global impact, and will change the way in which everyday life is transacted — forever.
 

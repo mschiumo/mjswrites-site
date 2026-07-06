@@ -5,10 +5,9 @@ date: 2024-06-07
 categories: ["Opinion"]
 excerpt: "Of the thousands of interactions that I have had over the course of the past 2 weeks, one in particular remains vivid in my mind. I was walking with a group of fellow Student Ambassadors when a visitor of the Expo turned..."
 heroImage: "/images/usap.jpeg"
+heroCaption: "USA Pavilion, Astana 2017"
 originalUrl: "https://mjswrites.com/blog/f/the-power-of-language-to-unite-us"
 ---
-
-USA Pavilion, Astana 2017
 
 Of the thousands of interactions that I have had over the course of the past 2 weeks, one in particular remains vivid in my mind. I was walking with a group of fellow Student Ambassadors when a visitor of the Expo turned and sought my attention. I turned, greeting him in Russian, and asked how I could help. Stealing a glance at the USA embroidery on my shirt, he promptly requested directions to our Pavilion. Naturally, I obliged. He thanked me, and then chanced one last question: from where did you come?
 

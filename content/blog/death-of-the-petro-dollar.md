@@ -5,16 +5,10 @@ date: 2022-11-03
 categories: ["Tech"]
 excerpt: "As you may have noticed, I am a proponent of cryptocurrency. I believe in it for many reasons — giving people control over their own finances, lowering the cost of and speeding up transactions, and creating transparency ..."
 heroImage: "/images/petro-dollar.jpeg"
+heroCaption: "$USD"
+heroCaptionUrl: "https://michaeljanschiumo.medium.com/death-of-the-petro-dollar-9f792e1e0403"
 originalUrl: "https://mjswrites.com/blog/f/death-of-the-petro-dollar"
 ---
-
-[
-
-![](/images/petro-dollar.jpeg)
-
-$USD
-
-](https://michaeljanschiumo.medium.com/death-of-the-petro-dollar-9f792e1e0403)
 
 As you may have noticed, I am a proponent of cryptocurrency. I believe in it for many reasons — giving people control over their own finances, lowering the cost of and speeding up transactions, and creating transparency through a distributed ledger. However, in the wake of recent events, there are even more reasons to be bullish on digital currency, and bearish on the US dollar.
 

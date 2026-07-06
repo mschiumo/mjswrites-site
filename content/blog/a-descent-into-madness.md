@@ -5,16 +5,10 @@ date: 2025-02-21
 categories: ["Mental Health"]
 excerpt: "Many might wonder what it feels like to descend into madness. In a word - blissful. "
 heroImage: "/images/8-f646fc6.jpeg"
+heroCaption: "Click here to learn more about my journey with Bipolar through my memoir, (In)Sane."
+heroCaptionUrl: "https://a.co/d/6e0siGf"
 originalUrl: "https://mjswrites.com/blog/f/a-descent-into-madness"
 ---
-
-[
-
-![](/images/8-f646fc6.jpeg)
-
-Click here to learn more about my journey with Bipolar through my memoir, (In)Sane.
-
-](https://a.co/d/6e0siGf)
 
 Many might wonder what it feels like to descend into madness. In a word - blissful.
 

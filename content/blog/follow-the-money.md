@@ -5,10 +5,9 @@ date: 2025-10-13
 categories: ["Opinion", "Tech"]
 excerpt: "There has never been a US president as openly money-hungry as Donald Trump, and there likely never will be. Even before he officially took office earlier this year, Trump was setting himself and his cronies on a path to ..."
 heroImage: "/images/trump-bill.jph.jpeg"
+heroCaption: "Trump signs the GENIUS Crypto Act"
 originalUrl: "https://mjswrites.com/blog/f/follow-the-money"
 ---
-
-Trump signs the GENIUS Crypto Act
 
 There has never been a US president as openly money-hungry as Donald Trump, and there likely never will be. Even before he officially took office earlier this year, Trump was setting himself and his cronies on a path to untold riches. Less than a year into his second term, it has become very clear - if you want to understand what comes next, follow the money.
 

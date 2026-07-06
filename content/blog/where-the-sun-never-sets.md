@@ -5,10 +5,9 @@ date: 2026-04-30
 categories: ["Travel"]
 excerpt: "There is an old phrase that the sun never sets on Great Britain. Of course, this is no longer true, but somehow, the sentiment has remained with me over the years. I was fortunate enough to attend the wedding of my best ..."
 heroImage: "/images/uk.jpg"
+heroCaption: "A photo I took in Cirencester, Cotswolds"
 originalUrl: "https://mjswrites.com/blog/f/where-the-sun-never-sets"
 ---
-
-A photo I took in Cirencester, Cotswolds
 
 There is an old phrase that the sun never sets on Great Britain. Of course, this is no longer true, but somehow, the sentiment has remained with me over the years. I was fortunate enough to attend the wedding of my best friend in the Cotswolds and stroll around London, and had such a pleasant time exploring that I felt compelled to share my experiences.
 

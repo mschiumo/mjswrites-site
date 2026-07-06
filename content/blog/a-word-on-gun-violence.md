@@ -26,13 +26,10 @@ What we must remember in this moment is the importance of empathy for others in 
 
 #### Numbers Don't Lie
 
-[
-
-![](/images/screenshot-2025-09-11-at-12.45.18-pm.png)
-
-From the Institute for Health Metrics and Evaluation
-
-](https://www.cnn.com/2021/11/26/world/us-gun-culture-world-comparison-intl-cmd/index.html)
+<figure>
+  <a href="https://www.cnn.com/2021/11/26/world/us-gun-culture-world-comparison-intl-cmd/index.html"><img src="/images/screenshot-2025-09-11-at-12.45.18-pm.png" alt="From the Institute for Health Metrics and Evaluation" /></a>
+  <figcaption>From the Institute for Health Metrics and Evaluation</figcaption>
+</figure>
 
 In the debate on gun rights, we often hear the same rhetoric tossed around ceaselessly - guns are not responsible for the deaths; people are. However, the data demonstrate that the correlation between guns per capita and gun deaths is undeniable and unassailable.
 

@@ -14,9 +14,10 @@ Last month, I had the opportunity to visit China for the first time. It had alwa
 
 #### Culture Shock
 
-![](/images/chongqing.jpeg)
-
-Chongqing, the 'Mountain City'
+<figure>
+  <img src="/images/chongqing.jpeg" alt="Chongqing, the 'Mountain City'" />
+  <figcaption>Chongqing, the 'Mountain City'</figcaption>
+</figure>
 
 Immediately after landing in China, I was impressed. The infrastructure is simply world-class. Sprawling airports, futuristic train stations, and towering city centers, all in pristine condition. There is a tangible sense of efficiency - food delivery within 15 minutes, taxi rides across the city for less than $5 USD, 100% mobile payments through streamlined and universally accepted applications. It is no surprise that China's development on the world stage is highly regarded.
 

@@ -5,10 +5,9 @@ date: 2025-07-31
 categories: ["Crypto", "Tech"]
 excerpt: "I've been involved with crypto since 2017. It was a time when only the true believers were holding strong to their conviction. Institutions, influential voices, and the Traditional Finance (TradFi) cohort at large were f..."
 heroImage: "/images/fink-btc.jpg"
+heroCaption: "Larry Fink, head of BlackRock"
 originalUrl: "https://mjswrites.com/blog/f/the-crypto-craze"
 ---
-
-Larry Fink, head of BlackRock
 
 I've been involved with crypto since 2017. It was a time when only the true believers were holding strong to their conviction. Institutions, influential voices, and the Traditional Finance (TradFi) cohort at large were far from convinced, and often viewed Bitcoin (BTC) as a scam perpetrated for the purpose of [drug trafficking, money laundering, and other nefarious activity](https://www.businessinsider.com/jamie-dimon-bitcoin-criticism-crypto-criminals-choice-2025-1). However, in recent years, and especially in 2025, the true believers are reaping the rewards, and former critics have not only changed their stance, but are ready to put their money on the line in the race for crypto dominance.
 
@@ -18,9 +17,10 @@ Let's take a look at what has changed, and why everyone will be using crypto in 
 
 #### **A Peer-to-Peer Electronic Cash System** 
 
-![](/images/satoshi.webp)
-
-An artist's tribute to Satoshi
+<figure>
+  <img src="/images/satoshi.webp" alt="An artist's tribute to Satoshi" />
+  <figcaption>An artist's tribute to Satoshi</figcaption>
+</figure>
 
 On October 31st of 2008, in the midst of the Great Recession precipitated by reckless and greed-fueled Wall Street bankers, an anonymous person, using the pseudonym Satoshi Nakamoto, [published a white paper](https://bitcoin.org/bitcoin.pdf) entitled 'Bitcoin: A Peer-to-Peer Electronic Cash System.' In it, he proposes a 'trustless' system operating on a network of independent nodes that eliminates the need for a third-party in order to complete transactions. One of the most-important distinctions of Bitcoin as opposed to traditional fiat currencies is its limited supply - there will only ever be 21 million Bitcoin in existence, and these coins are 'mined' via GPUs operated on the network.
 
@@ -34,9 +34,10 @@ Evidently, institutions have become believers in Satoshi's vision of a digital m
 
 #### A New Paradigm
 
-![](/images/circle.jpeg)
-
-Circle IPO, June 2025
+<figure>
+  <img src="/images/circle.jpeg" alt="Circle IPO, June 2025" />
+  <figcaption>Circle IPO, June 2025</figcaption>
+</figure>
 
 The race to adopt crypto has never been more-competitive, and record demand is flowing from institutions, governments, and retail investors looking to get ahead. Bitcoin has come a long way since legendary investor Warren Buffet [decried the apex cryptocurrency as 'rat poison,'](https://www.thestreet.com/crypto/investing/bitcoin-today-prices-falter-as-buffett-attacks-rat-poison-cryptos-14581433) and institutions competing against Buffet's Berkshire Hathaway (BRK) [now own a staggering 17% of the world's circulating Bitcoin supply](https://bitbo.io/treasuries/).
 
@@ -52,9 +53,10 @@ All of these developments have coalesced into what experts are saying could be t
 
 #### Green Means 'Go'
 
-![](/images/bill-signing.webp)
-
-Trump Signs the GENIUS Act
+<figure>
+  <img src="/images/bill-signing.webp" alt="Trump Signs the GENIUS Act" />
+  <figcaption>Trump Signs the GENIUS Act</figcaption>
+</figure>
 
 As prices continue to rise and the markets heat up, crypto has become a primary focal point for everyone, including governments around the world. In recent months, the United States has effectively given the green light to begin mass adoption, with [the President launching his own meme coin](https://www.bbc.com/news/articles/crlkjejpwr8o), Congress[ passing landmark bills to affirm regulatory standards](https://www.congress.gov/bill/119th-congress/senate-bill/1582), and crypto stories, like [Circle's (CRCL) recent IPO](https://www.reuters.com/business/wall-street-analysts-bullish-circle-after-blockbuster-ipo-warn-sky-high-2025-06-30/), stealing the show on Wall Street.
 
@@ -68,9 +70,10 @@ There is one thing for certain - crypto will play a significant role in the ever
 
 #### Rugs to Riches
 
-![](/images/pnut-bitcoin-800x457.jpeg.webp)
-
-Meme coin sensation, Peanut the Squirrel
+<figure>
+  <img src="/images/pnut-bitcoin-800x457.jpeg.webp" alt="Meme coin sensation, Peanut the Squirrel" />
+  <figcaption>Meme coin sensation, Peanut the Squirrel</figcaption>
+</figure>
 
 Despite institutions and nations around the globe making ripples in the crypto world, only [4% of the world's population currently owns Bitcoin](https://cointelegraph.com/news/only-4-world-population-holds-bitcoin-2025). That is expected to change very soon, and in ways that some might not expect. States around the country, including Michigan, Texas, Wisconsin, and Virginia, have invested state pension funds into crypto and crypto-related ETFs, which would have been considered unconscionable in the financial world just several years ago. With rising inflation and a crushing national debt, some politicians are hoping that crypto is a safer bet than traditional assets in the long run.
 

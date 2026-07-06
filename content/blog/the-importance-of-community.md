@@ -38,9 +38,10 @@ Being a part of the $SKI community this year has been one of the highlights. It 
 
 #### A Spirit of Service
 
-![](/images/newsom.webp)
-
-US National Guard Assist at California Food Pantry
+<figure>
+  <img src="/images/newsom.webp" alt="US National Guard Assist at California Food Pantry" />
+  <figcaption>US National Guard Assist at California Food Pantry</figcaption>
+</figure>
 
 It is not hyperbole to say that the fabric of American society has been torn, and we are experiencing an incredibly tumultuous and paradigm-shifting period in our economy, culture, politics, and personal lives. From the War on Immigrants to record divisiveness between Democrats and Republicans, it often feels that we perpetually find ourselves at odds with our fellow Americans, and even within our own families. Fundamental issues, like healthcare, immigration reform, taxes, and more have become a tense topic of conversation, and passions are quick to rise when these conversations begin.
 
