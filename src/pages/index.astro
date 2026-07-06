@@ -20,7 +20,7 @@ const POEM_PHOTOS = [
   <header id="top" class="hero">
     <div class="hero-copy">
       <div class="caveat hero-hey">hey there,</div>
-      <h1>I'm Michael —<br /><span class="hero-em">a writer</span> at heart.</h1>
+      <h1 id="hero-title">I'm Michael —<br /><span class="hero-em">a writer</span> at heart.</h1>
       <p>Poet, memoirist, and mental-health advocate. I write to make sense of the madness — and to help you find the words when your own feel far away.</p>
       <div class="hero-ctas">
         <a href="#memoir" class="btn btn--ink">Read my story</a>
@@ -48,12 +48,12 @@ const POEM_PHOTOS = [
   </div>
 
   <!-- MEMOIR -->
-  <section id="memoir" class="memoir">
-    <div class="memoir-cover">
+  <section id="memoir" class="memoir" data-reveal-group>
+    <div class="memoir-cover reveal">
       <img src="/assets/insane.jpg" alt="(In)Sane memoir cover among candlelight and berries" />
       <div class="memoir-badge">Out now</div>
     </div>
-    <div>
+    <div class="reveal">
       <div class="eyebrow memoir-eyebrow">The Memoir</div>
       <h2 class="memoir-title">(In)Sane</h2>
       <div class="memoir-sub">Memoirs of a Manic Millennial</div>
@@ -68,13 +68,13 @@ const POEM_PHOTOS = [
 
   <!-- POETRY -->
   <section id="poetry" class="poetry">
-    <div class="poetry-head">
+    <div class="poetry-head reveal">
       <div class="eyebrow eyebrow--on-dark">My Poetic Side</div>
       <h2>Words to <span class="poetry-em">love</span> by</h2>
       <p>Three collections, written from the heart — for whenever you're in love, heartbroken, struggling, or striving.</p>
     </div>
-    <div class="poetry-grid">
-      <div class="book-card">
+    <div class="poetry-grid" data-reveal-group>
+      <div class="book-card reveal">
         <div class="book-cover"><img src="/assets/words.jpg" alt="words to love by cover" /></div>
         <div class="book-body">
           <h3>words to love by</h3>
@@ -82,7 +82,7 @@ const POEM_PHOTOS = [
           <a href="https://a.co/d/a3ZDwUv" target="_blank" rel="noopener">Read it →</a>
         </div>
       </div>
-      <div class="book-card book-card--featured">
+      <div class="book-card book-card--featured reveal">
         <div class="book-cover">
           <img src="/assets/poet.jpg" alt="to be loved by a poet cover" />
           <div class="book-badge">Newest</div>
@@ -93,7 +93,7 @@ const POEM_PHOTOS = [
           <a href="https://www.amazon.com/be-loved-poet-Michael-Schiuma/dp/B0DJ7CT6CG" target="_blank" rel="noopener">Read it →</a>
         </div>
       </div>
-      <div class="book-card">
+      <div class="book-card reveal">
         <div class="book-cover"><img src="/assets/newyork_scene.jpg" alt="from new york, with love — resting among autumn leaves" /></div>
         <div class="book-body">
           <h3>from new york, with love</h3>
@@ -106,16 +106,16 @@ const POEM_PHOTOS = [
 
   <!-- CUSTOM POETRY FEATURE -->
   <section class="custom">
-    <div class="custom-head">
+    <div class="custom-head reveal">
       <div class="eyebrow">Featured — From the Shop</div>
       <h2>A poem, <span class="custom-em">typed just for you</span></h2>
     </div>
-    <div class="custom-grid">
-      <div class="custom-photo">
+    <div class="custom-grid" data-reveal-group>
+      <div class="custom-photo reveal">
         <img src="/assets/tw-picture.jpg" alt="An original poem typed on a vintage teal typewriter" />
         <div class="custom-tag">typed on a real typewriter</div>
       </div>
-      <div>
+      <div class="reveal">
         <h3 class="custom-title">Personalized Custom Poetry</h3>
         <p class="custom-p">Tell me about a person, a moment, a heartbreak, or a celebration — and I'll write you an original poem, typed on a vintage typewriter and sent to your door. No two are ever alike. Perfect for weddings, anniversaries, memorials, or simply saying what you can't quite put into words.</p>
         <div class="custom-bullets">
@@ -129,7 +129,7 @@ const POEM_PHOTOS = [
         </div>
       </div>
     </div>
-    <div class="gallery">
+    <div class="gallery reveal">
       <div class="gallery-head">
         <h3>A few pieces I've typed</h3>
         <a href={ETSY_LISTING} target="_blank" rel="noopener">See more on Etsy →</a>
@@ -145,10 +145,10 @@ const POEM_PHOTOS = [
   </section>
 
   <!-- TRAILER -->
-  <section class="trailer">
-    <div class="eyebrow">Watch</div>
-    <h2>The official <span class="trailer-em">trailer</span></h2>
-    <div class="trailer-frame">
+  <section class="trailer" data-reveal-group>
+    <div class="eyebrow reveal">Watch</div>
+    <h2 class="reveal">The official <span class="trailer-em">trailer</span></h2>
+    <div class="trailer-frame reveal">
       <iframe
         src="https://www.youtube.com/embed/iio3IAiuVPg?rel=0&showinfo=0"
         title="to be loved by a poet — trailer"
@@ -158,7 +158,7 @@ const POEM_PHOTOS = [
   </section>
 
   <!-- BLOG CAROUSEL -->
-  <section class="latest">
+  <section class="latest reveal">
     <div class="latest-inner">
       <div class="latest-head">
         <h2>The latest from my <span class="latest-em">blog</span></h2>
@@ -189,7 +189,7 @@ const POEM_PHOTOS = [
   </section>
 
   <!-- FOLLOW -->
-  <section class="follow">
+  <section class="follow reveal">
     <div class="follow-head">
       <div class="caveat follow-hey">let's keep in touch</div>
       <h2>Follow along</h2>
@@ -238,6 +238,16 @@ const POEM_PHOTOS = [
     margin-bottom: 26px;
   }
   .hero-em { font-style: italic; color: var(--accent-deep); }
+  .type-caret {
+    display: inline-block;
+    width: 3px;
+    height: 0.82em;
+    background: var(--accent-deep);
+    margin-left: 5px;
+    vertical-align: -0.06em;
+    animation: caretBlink 1s steps(1) infinite;
+  }
+  .type-caret--done { animation: none; opacity: 0; transition: opacity 0.5s ease; }
   .hero-copy p { font-size: 19px; line-height: 1.65; color: var(--ink-soft); max-width: 34ch; margin-bottom: 36px; }
   .hero-ctas { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
   .hero-media { position: relative; overflow: hidden; }
@@ -338,10 +348,14 @@ const POEM_PHOTOS = [
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid rgba(246, 238, 227, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
+  .book-card:hover { transform: translateY(-6px); box-shadow: 0 22px 44px rgba(0, 0, 0, 0.32); }
   .book-card--featured { box-shadow: 0 0 0 2px rgba(224, 162, 119, 0.35); }
+  .book-card--featured:hover { box-shadow: 0 0 0 2px rgba(224, 162, 119, 0.55), 0 22px 44px rgba(0, 0, 0, 0.32); }
   .book-cover { aspect-ratio: 1 / 1; overflow: hidden; position: relative; }
-  .book-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .book-cover img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s ease; }
+  .book-card:hover .book-cover img { transform: scale(1.04); }
   .book-badge {
     position: absolute;
     top: 14px;
@@ -485,11 +499,12 @@ const POEM_PHOTOS = [
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 8px 24px rgba(44, 35, 32, 0.1);
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
-  .post-card:hover { box-shadow: 0 16px 36px rgba(44, 35, 32, 0.18); }
+  .post-card:hover { box-shadow: 0 16px 36px rgba(44, 35, 32, 0.18); transform: translateY(-4px); }
   .post-card-img { aspect-ratio: 16 / 9; overflow: hidden; position: relative; }
-  .post-card-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .post-card-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s ease; }
+  .post-card:hover .post-card-img img { transform: scale(1.04); }
   .post-card-latest {
     position: absolute;
     top: 10px;
@@ -558,4 +573,54 @@ const POEM_PHOTOS = [
       track.scrollBy({ left: dir * step, behavior: 'smooth' });
     });
   });
+
+  // Typewriter hero — retypes the headline on load, a nod to the
+  // vintage-typewriter poetry. Static markup stays as the no-JS fallback.
+  interface Seg { text?: string; br?: boolean; className?: string; }
+  const title = document.getElementById('hero-title');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (title && !reduceMotion) {
+    const segments: Seg[] = [
+      { text: "I'm Michael —" },
+      { br: true },
+      { text: 'a writer', className: 'hero-em' },
+      { text: ' at heart.' },
+    ];
+    // Lock in the rendered height first so retyping doesn't shift the layout.
+    title.style.minHeight = `${title.offsetHeight}px`;
+    title.textContent = '';
+    const caret = document.createElement('span');
+    caret.className = 'type-caret';
+    title.appendChild(caret);
+
+    let segIdx = 0;
+    const typeSegment = () => {
+      if (segIdx >= segments.length) {
+        window.setTimeout(() => caret.classList.add('type-caret--done'), 1400);
+        return;
+      }
+      const seg = segments[segIdx++];
+      if (seg.br) {
+        title.insertBefore(document.createElement('br'), caret);
+        typeSegment();
+        return;
+      }
+      const span = document.createElement('span');
+      if (seg.className) span.className = seg.className;
+      title.insertBefore(span, caret);
+      const chars = seg.text ?? '';
+      let charIdx = 0;
+      const typeChar = () => {
+        if (charIdx < chars.length) {
+          span.textContent += chars[charIdx++];
+          window.setTimeout(typeChar, 34 + Math.random() * 46);
+        } else {
+          typeSegment();
+        }
+      };
+      typeChar();
+    };
+    window.setTimeout(typeSegment, 450);
+  }
 </script>

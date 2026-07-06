@@ -38,6 +38,7 @@ const NAV = [
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>document.documentElement.classList.add('js');</script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
@@ -94,6 +95,37 @@ const NAV = [
   </body>
 </html>
 
+<script>
+  // Scroll-reveal: fade + rise sections into view as they're scrolled to.
+  // Elements inside a [data-reveal-group] are staggered.
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const revealEls = Array.from(document.querySelectorAll<HTMLElement>('.reveal'));
+
+  if (prefersReduced || !('IntersectionObserver' in window)) {
+    revealEls.forEach((el) => el.classList.add('is-visible'));
+  } else {
+    revealEls.forEach((el) => {
+      const group = el.closest('[data-reveal-group]');
+      if (group) {
+        const idx = Array.from(group.querySelectorAll('.reveal')).indexOf(el);
+        if (idx > 0) el.style.transitionDelay = `${idx * 90}ms`;
+      }
+    });
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { rootMargin: '0px 0px -12% 0px', threshold: 0.1 },
+    );
+    revealEls.forEach((el) => io.observe(el));
+  }
+</script>
+
 <style>
   .announcement {
     background: var(--ink);
@@ -138,8 +170,28 @@ const NAV = [
     color: var(--accent);
   }
   .nav-links { display: flex; align-items: center; gap: 34px; }
-  .nav-link { color: var(--ink); text-decoration: none; font-size: 15px; font-weight: 500; }
+  .nav-link {
+    position: relative;
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    background: var(--accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.28s ease;
+  }
   .nav-link:hover { color: var(--accent); }
+  .nav-link:hover::after, .nav-link.active::after { transform: scaleX(1); }
   .nav-link.active { color: var(--accent); font-weight: 600; }
   .nav-cta {
     background: var(--accent);
