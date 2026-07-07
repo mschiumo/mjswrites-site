@@ -16,6 +16,12 @@ interface Props {
   /** Override the nav CTA (Contact page uses "Say hello" → #form). */
   ctaLabel?: string;
   ctaHref?: string;
+  /** Social-share image (site-relative path); defaults to the (In)Sane cover. */
+  ogImage?: string;
+  /** Open Graph object type; article pages pass 'article'. */
+  ogType?: string;
+  /** JSON-LD structured data to embed in the head. */
+  jsonLd?: object | object[];
 }
 
 const {
@@ -24,7 +30,14 @@ const {
   active,
   ctaLabel = 'Get in touch',
   ctaHref = '/contact/',
+  ogImage = '/assets/insane.jpg',
+  ogType = 'website',
+  jsonLd,
 } = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const ogImageUrl = new URL(ogImage, Astro.site).href;
+const jsonLdBlocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
 const NAV = [
   { id: 'home', label: 'Home', href: '/' },
@@ -43,10 +56,23 @@ const NAV = [
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
+    <meta name="author" content="Michael J. Schiuma" />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" type="application/rss+xml" title="MJS Writes — The Journal" href="/rss.xml" />
+    <meta property="og:site_name" content="MJS Writes" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site).href} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@man1cmillennial" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+    {jsonLdBlocks.map((block) => (
+      <script type="application/ld+json" set:html={JSON.stringify(block)} />
+    ))}
     <slot name="head" />
   </head>
   <body>

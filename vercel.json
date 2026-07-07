@@ -1,6 +1,9 @@
 {
   "redirects": [
     { "source": "/f/:slug", "destination": "/blog/:slug", "permanent": true },
-    { "source": "/blog/f/:slug", "destination": "/blog/:slug", "permanent": true }
+    { "source": "/blog/f/:slug", "destination": "/blog/:slug", "permanent": true },
+    { "source": "/f.rss", "destination": "/rss.xml", "permanent": true },
+    { "source": "/f.atom", "destination": "/rss.xml", "permanent": true },
+    { "source": "/f.json", "destination": "/rss.xml", "permanent": true }
   ]
 }
