@@ -7,6 +7,89 @@ import { SOCIALS, ETSY_LISTING } from '../lib/socials';
 
 const posts = (await getPosts()).slice(0, 8);
 
+const SITE = Astro.site!.href;
+const author = {
+  '@type': 'Person',
+  '@id': `${SITE}#author`,
+  name: 'Michael J. Schiuma',
+  url: SITE,
+  jobTitle: 'Author & Poet',
+  description:
+    'Author of the bipolar memoir (In)Sane: Memoirs of a Manic Millennial and three poetry collections; writes on mental health, love, and recovery.',
+  image: new URL('/assets/author-portrait.jpg', SITE).href,
+  sameAs: SOCIALS.map((s) => s.url),
+  knowsAbout: [
+    'bipolar disorder',
+    'mental health',
+    'depression',
+    'anxiety',
+    'mania',
+    'recovery',
+    'memoir writing',
+    'poetry',
+  ],
+};
+
+const book = (name: string, image: string, url: string, description: string, genre: string, keywords: string) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Book',
+  name,
+  author: { '@id': `${SITE}#author` },
+  image: new URL(image, SITE).href,
+  url,
+  description,
+  genre,
+  keywords,
+  inLanguage: 'en',
+});
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'MJS Writes',
+    url: SITE,
+    description:
+      'Author site of Michael J. Schiuma — bipolar memoir, poetry collections, custom typewriter poems, and a journal on mental health.',
+    keywords:
+      'bipolar disorder, bipolar memoir, mental health, mental health awareness, depression, anxiety, mania, recovery, memoir, poetry',
+    author: { '@id': `${SITE}#author` },
+  },
+  { '@context': 'https://schema.org', ...author },
+  book(
+    '(In)Sane: Memoirs of a Manic Millennial',
+    '/assets/insane.jpg',
+    'https://a.co/d/aE0W78i',
+    'A raw two-part memoir of undiagnosed bipolar disorder, a psych-ward low, and the climb back to hope.',
+    'Memoir',
+    'bipolar memoir, bipolar disorder, mental health, mania, manic episode, depression, psych ward, recovery, mental illness',
+  ),
+  book(
+    'words to love by',
+    '/assets/words.jpg',
+    'https://a.co/d/a3ZDwUv',
+    'A poetry collection on love, loss, and being human.',
+    'Poetry',
+    'love poetry, heartbreak poems, poetry collection, poems about love, mental health',
+  ),
+  book(
+    'to be loved by a poet',
+    '/assets/poet.jpg',
+    'https://www.amazon.com/be-loved-poet-Michael-Schiuma/dp/B0DJ7CT6CG',
+    'Poems on what it means to love — and to be loved by — a poet.',
+    'Poetry',
+    'love poetry, romantic poems, poetry collection, poems about love',
+  ),
+  book(
+    'from new york, with love',
+    '/assets/newyork_scene.jpg',
+    'https://a.co/d/9Sp1AEu',
+    'A love letter to New York in poems.',
+    'Poetry',
+    'New York poetry, city poems, love poetry, poetry collection',
+  ),
+];
+
 const POEM_PHOTOS = [
   { img: '/assets/tw-tobeloved.jpg', alt: 'a typed poem — to be loved by a poet' },
   { img: '/assets/tw-fragment.jpg', alt: 'a typed poem resting among roses' },
@@ -14,7 +97,12 @@ const POEM_PHOTOS = [
   { img: '/assets/tw-machine.jpg', alt: 'a vintage Smith-Corona typewriter with roses' },
 ];
 ---
-<Base title="MJS Writes — Michael J. Schiuma, author & poet" active="home">
+<Base
+  title="MJS Writes — Bipolar Memoir & Poetry by Michael J. Schiuma"
+  description="Author Michael J. Schiuma writes memoir and poetry on bipolar disorder and mental health. Read (In)Sane: Memoirs of a Manic Millennial and his poetry collections."
+  active="home"
+  jsonLd={jsonLd}
+>
 
   <!-- HERO -->
   <header id="top" class="hero">
