@@ -22,7 +22,25 @@ interface Props {
   ogType?: string;
   /** JSON-LD structured data to embed in the head. */
   jsonLd?: object | object[];
+  /** Page-specific keywords, prepended to the site-wide defaults. */
+  keywords?: string[];
 }
+
+const DEFAULT_KEYWORDS = [
+  'bipolar disorder',
+  'bipolar',
+  'mental health',
+  'mental health awareness',
+  'depression',
+  'anxiety',
+  'mania',
+  'mental illness',
+  'recovery',
+  'memoir',
+  'poetry',
+  'Michael J. Schiuma',
+  'MJS Writes',
+];
 
 const {
   title,
@@ -33,11 +51,13 @@ const {
   ogImage = '/assets/insane.jpg',
   ogType = 'website',
   jsonLd,
+  keywords = [],
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImageUrl = new URL(ogImage, Astro.site).href;
 const jsonLdBlocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+const metaKeywords = [...new Set([...keywords, ...DEFAULT_KEYWORDS])].join(', ');
 
 const NAV = [
   { id: 'home', label: 'Home', href: '/' },
@@ -56,6 +76,7 @@ const NAV = [
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="keywords" content={metaKeywords} />
     <meta name="author" content="Michael J. Schiuma" />
     <link rel="canonical" href={canonical} />
     <link rel="alternate" type="application/rss+xml" title="MJS Writes — The Journal" href="/rss.xml" />
