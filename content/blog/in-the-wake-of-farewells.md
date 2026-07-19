@@ -4,6 +4,7 @@ slug: "in-the-wake-of-farewells"
 date: 2026-07-20
 categories: ["Poetry"]
 excerpt: "i find myself tender-hearted in the wake of farewells"
+heroImage: "/images/sunset-2.jpeg"
 ---
 
 i find myself tender-hearted in the wake of farewells  
