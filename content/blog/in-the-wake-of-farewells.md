@@ -1,6 +1,6 @@
 ---
-title: "a reason to return"
-slug: "a-reason-to-return"
+title: "in the wake of farewells"
+slug: "in-the-wake-of-farewells"
 date: 2026-07-20
 categories: ["Poetry"]
 excerpt: "i find myself tender-hearted in the wake of farewells"
