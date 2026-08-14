@@ -135,6 +135,21 @@ const POEM_PHOTOS = [
     <span>politics</span>
   </div>
 
+  <!-- ABOUT -->
+  <section class="about-home reveal">
+    <div class="about-home-inner">
+      <div class="about-home-photo">
+        <img src="/assets/author-headshot.jpg" alt="Michael J. Schiuma on the Hoboken pier, with the Manhattan skyline behind him" />
+      </div>
+      <div>
+        <div class="caveat about-home-hey">hey, it's me</div>
+        <h2>Hi, I'm <span class="about-home-em">Michael</span></h2>
+        <p class="about-home-p">Author, poet, and mental-health advocate from Sparta, NJ. I write about bipolar disorder, love, and everything in between — trying to turn the mess into something worth reading.</p>
+        <a href="/contact/" class="link-underline">More about me →</a>
+      </div>
+    </div>
+  </section>
+
   <!-- MEMOIR -->
   <section id="memoir" class="memoir" data-reveal-group>
     <div class="memoir-cover reveal">
@@ -373,6 +388,35 @@ const POEM_PHOTOS = [
   }
   .theme-strip span { font-style: italic; }
   .theme-strip i { color: var(--accent); font-style: normal; }
+
+  /* ABOUT (home) */
+  .about-home { padding: clamp(64px, 9vw, 120px) var(--pad-x); }
+  .about-home-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    gap: clamp(36px, 5vw, 72px);
+    align-items: center;
+  }
+  .about-home-photo img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 26px 60px rgba(44, 35, 32, 0.26);
+    display: block;
+  }
+  .about-home-hey { font-size: 28px; margin-bottom: 2px; }
+  .about-home h2 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(32px, 4vw, 52px);
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .about-home-em { font-style: italic; color: var(--accent-deep); }
+  .about-home-p { font-size: 17.5px; line-height: 1.72; color: var(--ink-soft-2); max-width: 52ch; margin-bottom: 22px; }
 
   /* MEMOIR */
   .memoir {
@@ -645,7 +689,7 @@ const POEM_PHOTOS = [
     .hero { grid-template-columns: 1fr; min-height: 0; }
     .hero-media { min-height: 320px; }
     .hero-fade { background: linear-gradient(180deg, var(--bg-paper) 0%, rgba(246, 238, 227, 0) 22%); }
-    .memoir, .custom-grid { grid-template-columns: 1fr; }
+    .about-home-inner, .memoir, .custom-grid { grid-template-columns: 1fr; }
     .poetry-grid { grid-template-columns: 1fr; max-width: 460px; }
     .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   }
