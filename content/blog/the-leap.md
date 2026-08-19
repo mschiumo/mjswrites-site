@@ -4,7 +4,7 @@ slug: "the-leap"
 date: 2026-08-19
 categories: ["Poetry"]
 excerpt: "i’ve spent the better part of my life preparing for the leap"
-heroImage: "/images/the-leap.jpeg"
+heroImage: "/images/cliff.jpg"
 ---
 
 i’ve spent the better part of my life preparing for the leap  
@@ -13,7 +13,7 @@ the next jump, the next conquest, the next plunge into the deep
 and after many falls from the precipice, and the sinking reality of starting anew  
 it dawned upon me not long ago - i know now what i must do  
 
-for life, you see, is a series of smalls steps, trudging along each day  
+for life, you see, is a series of small steps, trudging along each day  
 so, when we make mistakes and go awry, we have the chance to find our way  
 
 mine has always been wandering, it appears my heart is so inclined  
