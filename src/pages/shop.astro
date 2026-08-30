@@ -1,13 +1,43 @@
 ---
 import Base from '../layouts/Base.astro';
 import Lightbox from '../components/Lightbox.astro';
-import { ETSY_LISTING } from '../lib/socials';
+import { ETSY_LISTING, ETSY_SHOP } from '../lib/socials';
 
 const POEM_PHOTOS = [
   { img: '/assets/tw-tobeloved.jpg', alt: 'a typed poem — to be loved by a poet' },
   { img: '/assets/tw-fragment.jpg', alt: 'a typed poem resting among roses' },
   { img: '/assets/tw-tryasthey.jpg', alt: 'a typed poem — try as they may' },
   { img: '/assets/tw-machine.jpg', alt: 'a vintage Smith-Corona typewriter with roses' },
+];
+
+const ETSY_GOODS = [
+  {
+    name: 'Cotton Canvas Tote Bag',
+    tag: 'Tote',
+    detail: '100% cotton canvas · 15″ × 16″',
+    price: '$16.11',
+    url: 'https://www.etsy.com/listing/4565224371/cotton-canvas-tote-bag',
+    img: '/assets/etsy-tote.jpg',
+    alt: 'Natural cotton canvas tote bag printed with the poem line "I have yet to find a fragment of you that isn\'t worth cherishing"',
+  },
+  {
+    name: 'Scented Soy Candle',
+    tag: 'Candle',
+    detail: '9 oz soy wax · 50–60 hour burn · nine scents',
+    price: '$22.58',
+    url: 'https://www.etsy.com/listing/4565219273/scented-soy-candle-9oz',
+    img: '/assets/etsy-candle.jpg',
+    alt: 'A 9 oz soy candle in a glass jar, its label printed with a poem line',
+  },
+  {
+    name: 'Ceramic Mug',
+    tag: 'Mug',
+    detail: 'White ceramic · 11 oz or 15 oz',
+    price: 'from $12.99',
+    url: 'https://www.etsy.com/listing/4565216855/ceramic-mug-11oz-15oz',
+    img: '/assets/etsy-mug.jpg',
+    alt: 'A white ceramic mug printed with the poem line "I have yet to find a fragment of you that isn\'t worth cherishing"',
+  },
 ];
 
 const POEM_LINES = [
@@ -26,7 +56,7 @@ const POEM_LINES = [
 ---
 <Base
   title="The Shop — Custom Poems & Poetry Books | MJS Writes"
-  description="One-of-a-kind custom poems typed on a vintage typewriter, digital poetry editions, and — coming soon — poetry prints. By author Michael J. Schiuma."
+  description="One-of-a-kind custom poems typed on a vintage typewriter, digital poetry editions, and poetry-printed candles, mugs & tote bags. By author Michael J. Schiuma."
   active="shop"
   keywords={['custom poem', 'personalized poetry', 'typewriter poetry', 'poetry gifts', 'love poems', 'poetry books']}
 >
@@ -34,7 +64,7 @@ const POEM_LINES = [
   <header class="shop-header">
     <div class="caveat shop-hey">take a piece home</div>
     <h1>The <span class="shop-em">Shop</span></h1>
-    <p>One-of-a-kind poems typed just for you, digital editions, and — coming soon — poetry prints for your wall.</p>
+    <p>One-of-a-kind poems typed just for you, digital editions, and poetry-printed goods — candles, mugs, and totes — from my Etsy shop.</p>
   </header>
 
   <section class="custom-dark">
@@ -84,6 +114,43 @@ const POEM_LINES = [
           <div><i>✦</i> Delivered fast — perfect for last-minute gifts</div>
         </div>
         <a href={ETSY_LISTING} target="_blank" rel="noopener" class="btn-cream">Order a digital poem →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="goods">
+    <div class="goods-inner">
+      <div class="goods-head">
+        <div>
+          <div class="caveat goods-hey">poetry you can hold</div>
+          <h2>Goods from the <span class="shop-em">Etsy shop</span></h2>
+          <p>Favorite lines from <em>to be loved by a poet</em>, printed on things made for everyday moments.</p>
+        </div>
+        <div class="goods-controls">
+          <a href={ETSY_SHOP} target="_blank" rel="noopener">Visit the shop →</a>
+          <div class="goods-arrows">
+            <button data-goods-scroll="-1" aria-label="Previous products">←</button>
+            <button data-goods-scroll="1" aria-label="Next products">→</button>
+          </div>
+        </div>
+      </div>
+      <div data-goods-carousel class="goods-track">
+        {ETSY_GOODS.map((p) => (
+          <a href={p.url} target="_blank" rel="noopener" class="product-card">
+            <div class="product-img">
+              <img src={p.img} alt={p.alt} loading="lazy" />
+            </div>
+            <div class="product-body">
+              <div class="product-tag">{p.tag}</div>
+              <h3>{p.name}</h3>
+              <div class="product-detail">{p.detail}</div>
+              <div class="product-foot">
+                <span class="product-price">{p.price}</span>
+                <span class="product-cta">View on Etsy →</span>
+              </div>
+            </div>
+          </a>
+        ))}
       </div>
     </div>
   </section>
@@ -273,6 +340,84 @@ const POEM_LINES = [
   .bullets div { display: flex; align-items: center; gap: 12px; font-size: 16px; color: var(--on-dark); }
   .bullets i { color: var(--accent-light); font-style: normal; font-size: 15px; }
 
+  .goods { padding: clamp(52px, 7vw, 92px) var(--pad-x); }
+  .goods-inner { max-width: 1180px; margin: 0 auto; }
+  .goods-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .goods-hey { font-size: 26px; margin-bottom: 4px; }
+  .goods-head h2 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(30px, 3.6vw, 48px);
+    line-height: 1.04;
+    letter-spacing: -0.02em;
+    margin-bottom: 14px;
+  }
+  .goods-head p { font-size: 17px; line-height: 1.65; color: var(--ink-soft); max-width: 46ch; }
+  .goods-controls { display: flex; align-items: center; gap: 16px; padding-bottom: 6px; }
+  .goods-controls > a { color: var(--accent); text-decoration: none; font-size: 14.5px; font-weight: 600; }
+  .goods-arrows { display: flex; gap: 8px; }
+  .goods-arrows button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(44, 35, 32, 0.2);
+    background: var(--bg-paper);
+    color: var(--ink);
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+  }
+  .goods-arrows button:hover { background: var(--ink); color: var(--bg-paper); border-color: var(--ink); }
+  .goods-track {
+    display: flex;
+    gap: clamp(16px, 2vw, 24px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 6px;
+  }
+  .product-card {
+    flex: 0 0 auto;
+    width: clamp(250px, 30vw, 350px);
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--ink);
+    background: var(--surface-card);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(44, 35, 32, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  .product-card:hover { box-shadow: 0 16px 36px rgba(44, 35, 32, 0.18); transform: translateY(-4px); }
+  .product-img { aspect-ratio: 1 / 1; overflow: hidden; background: #fff; }
+  .product-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s ease; }
+  .product-card:hover .product-img img { transform: scale(1.04); }
+  .product-body { padding: 16px 20px 20px; display: flex; flex-direction: column; flex: 1; }
+  .product-tag {
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 7px;
+  }
+  .product-body h3 { font-family: var(--font-serif); font-style: italic; font-weight: 400; font-size: 21px; line-height: 1.18; margin-bottom: 6px; }
+  .product-detail { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+  .product-foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: auto; }
+  .product-price { font-size: 15.5px; font-weight: 700; }
+  .product-cta { color: var(--accent); font-size: 13.5px; font-weight: 600; }
+
   .coming-soon { background: var(--bg-paper-deep); padding: clamp(56px, 8vw, 100px) var(--pad-x); }
   .coming-head { max-width: 1180px; margin: 0 auto; text-align: center; }
   .coming-pill {
@@ -301,6 +446,19 @@ const POEM_LINES = [
   @media (max-width: 860px) {
     .custom-grid, .digital { grid-template-columns: 1fr; }
     .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    .product-card { width: min(78vw, 320px); }
   }
 </style>
+
+<script>
+  const goodsTrack = document.querySelector<HTMLElement>('[data-goods-carousel]');
+  document.querySelectorAll<HTMLButtonElement>('[data-goods-scroll]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      if (!goodsTrack) return;
+      const dir = Number(btn.dataset.goodsScroll);
+      const step = Math.min(370, goodsTrack.clientWidth * 0.9);
+      goodsTrack.scrollBy({ left: dir * step, behavior: 'smooth' });
+    });
+  });
+</script>
 

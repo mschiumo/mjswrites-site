@@ -42,4 +42,5 @@ export const BOOKS = [
 ];
 
 export const ETSY_LISTING = 'https://www.etsy.com/listing/1839580090/personalized-custom-poetry-digital';
+export const ETSY_SHOP = 'https://www.etsy.com/shop/MJSWrites';
 export const MEMOIR_ANNOUNCEMENT = 'https://a.co/d/gGNZ2QT';
