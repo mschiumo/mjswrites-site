@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Lightbox from '../components/Lightbox.astro';
-import { ETSY_LISTING, ETSY_SHOP } from '../lib/socials';
+import { ETSY_LISTING, ETSY_LISTING_TYPED, ETSY_SHOP } from '../lib/socials';
 
 const POEM_PHOTOS = [
   { img: '/assets/tw-tobeloved.jpg', alt: 'a typed poem — to be loved by a poet' },
@@ -86,7 +86,7 @@ const POEM_LINES = [
         <div class="eyebrow eyebrow--on-dark made-to-order">Made to order</div>
         <h2>Custom poetry, <span class="em-light">typed just for you</span></h2>
         <p class="custom-p">Tell me about a person, a moment, or a feeling, and I'll write you an original poem on a vintage typewriter — a keepsake made to be framed and kept. Perfect for weddings, anniversaries, memorials, or simply saying what's hard to say.</p>
-        <a href={ETSY_LISTING} target="_blank" rel="noopener" class="btn-light">Order on Etsy →</a>
+        <a href={ETSY_LISTING_TYPED} target="_blank" rel="noopener" class="btn-light">Order on Etsy →</a>
       </div>
     </div>
 
