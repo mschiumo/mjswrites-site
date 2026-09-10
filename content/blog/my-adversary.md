@@ -17,4 +17,4 @@ it will not be a future laden with triumph that stands before me, but a war of a
 a perpetual quest to find the purity of heart and ferocity of ceaseless determination that stand as my only defense against him  
 but he will be defeated, for the future calls to me in the restless nights  
 those dreams towards which my arms remain forever extended are closer today, because i have survived days past, reinvigorated once more to face down my adversary  
-and dare to fight ever-more ferociously
+daring to fight another day
