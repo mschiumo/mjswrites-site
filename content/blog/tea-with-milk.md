@@ -4,7 +4,7 @@ slug: "tea-with-milk"
 date: 2026-09-14
 categories: ["Travel"]
 excerpt: "Whenever I receive compliments on my Russian, I think of one thing - tea with milk. It was in Almaty, Kazakhstan that this all transpired. I was a naive, young, inexperienced American, attempting to integrate into a culture entirely foreign to my own ..."
-heroImage: "/images/tea-with-milk.jpg"
+heroImage: "/images/tea-with-milk-cover.jpg"
 ---
 
 <div style="margin-bottom: 28px;"><em><a href="/blog/чай-с-молоком/">Read this article in Russian</a></em></div>
