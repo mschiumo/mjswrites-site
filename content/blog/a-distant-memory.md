@@ -15,4 +15,6 @@ how stunning you were, enveloped by the softness of the shadows as we strolled c
 
 to hear you speak was to know that across from me, there was someone who understood  
 
-and there are few things of the physical world with which i wouldn’t part in exchange for a few moments more…  
+and there are few things of the physical world with which i wouldn’t part  
+
+in exchange for a few moments more with you…  
