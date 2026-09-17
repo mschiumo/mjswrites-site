@@ -28,7 +28,7 @@ const counts = new Map<string, number>(
     <div class="blog-list">
       <div class="empty-state" data-empty hidden>
         <div class="caveat empty-hey">nothing here yet</div>
-        <p>No posts in <strong data-empty-cat></strong> just yet — check back soon.</p>
+        <p data-empty-msg>No posts in <strong></strong> just yet — check back soon.</p>
       </div>
       {posts.map((post) => (
         <a
@@ -36,6 +36,7 @@ const counts = new Map<string, number>(
           class="blog-item"
           data-post
           data-cats={post.data.categories.join('|')}
+          data-title={post.data.title}
         >
           <div class="blog-item-img"><img src={post.data.heroImage} alt={post.data.title} loading="lazy" /></div>
           <div class="blog-item-copy">
@@ -53,6 +54,22 @@ const counts = new Map<string, number>(
     </div>
 
     <aside>
+      <label class="search" for="post-search">
+        <svg class="search-icon" viewBox="0 0 20 20" aria-hidden="true" width="14" height="14">
+          <circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6" />
+          <line x1="12.6" y1="12.6" x2="17" y2="17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+        </svg>
+        <input
+          id="post-search"
+          type="search"
+          placeholder="search titles…"
+          autocomplete="off"
+          spellcheck="false"
+          aria-label="Search posts by title"
+          data-search
+        />
+        <button type="button" class="search-clear" aria-label="Clear search" data-search-clear hidden>&times;</button>
+      </label>
       <h2>Categories</h2>
       <div class="cat-list">
         {CATEGORY_ORDER.map((cat) => (
@@ -139,6 +156,46 @@ const counts = new Map<string, number>(
   .continue { font-size: 14.5px; font-weight: 600; color: var(--accent); }
 
   aside { position: sticky; top: 96px; }
+
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 26px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(44, 35, 32, 0.18);
+    color: var(--muted);
+    cursor: text;
+    transition: border-color 0.25s ease, color 0.25s ease;
+  }
+  .search:focus-within { border-bottom-color: var(--accent); color: var(--accent); }
+  .search-icon { flex: 0 0 auto; }
+  .search input {
+    flex: 1 1 auto;
+    min-width: 0;
+    background: none;
+    border: 0;
+    outline: none;
+    padding: 2px 0;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 16px;
+    color: var(--ink);
+  }
+  .search input::placeholder { color: var(--muted-faint); font-style: italic; }
+  .search input::-webkit-search-cancel-button { -webkit-appearance: none; }
+  .search-clear {
+    flex: 0 0 auto;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 0 2px;
+    line-height: 1;
+    font-size: 18px;
+    color: var(--muted);
+    transition: color 0.2s ease;
+  }
+  .search-clear:hover { color: var(--accent); }
   aside h2 {
     font-family: var(--font-serif);
     font-weight: 400;
@@ -174,6 +231,7 @@ const counts = new Map<string, number>(
     .blog-body { grid-template-columns: 1fr; }
     aside { position: static; order: -1; }
     .cat-list { flex-direction: row; flex-wrap: wrap; gap: 4px 18px; }
+    .search { max-width: 280px; margin-bottom: 18px; }
     .blog-item { grid-template-columns: 1fr; }
     .blog-item-img { max-height: 260px; }
   }
@@ -183,19 +241,65 @@ const counts = new Map<string, number>(
   const items = Array.from(document.querySelectorAll<HTMLElement>('[data-post]'));
   const buttons = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-cat]'));
   const emptyState = document.querySelector<HTMLElement>('[data-empty]');
-  const emptyCat = document.querySelector<HTMLElement>('[data-empty-cat]');
+  const emptyMsg = document.querySelector<HTMLElement>('[data-empty-msg]');
+  const search = document.querySelector<HTMLInputElement>('[data-search]');
+  const clearBtn = document.querySelector<HTMLButtonElement>('[data-search-clear]');
 
-  function apply(cat: string) {
+  let activeCat = 'All Posts';
+  let query = '';
+
+  const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
+
+  function apply() {
     let visible = 0;
+    const q = norm(query);
     for (const item of items) {
-      const show = cat === 'All Posts' || (item.dataset.cats ?? '').split('|').includes(cat);
+      const inCat = activeCat === 'All Posts' || (item.dataset.cats ?? '').split('|').includes(activeCat);
+      const inQuery = q === '' || norm(item.dataset.title ?? '').includes(q);
+      const show = inCat && inQuery;
       item.style.display = show ? '' : 'none';
       if (show) visible++;
     }
-    for (const btn of buttons) btn.classList.toggle('active', btn.dataset.cat === cat);
+    for (const btn of buttons) btn.classList.toggle('active', btn.dataset.cat === activeCat);
     if (emptyState) emptyState.hidden = visible > 0;
-    if (emptyCat) emptyCat.textContent = cat;
+    if (emptyMsg) {
+      emptyMsg.innerHTML = q
+        ? `No titles match <strong></strong>${activeCat === 'All Posts' ? '' : ' in <strong></strong>'}.`
+        : `No posts in <strong></strong> just yet — check back soon.`;
+      const strongs = emptyMsg.querySelectorAll('strong');
+      if (q) {
+        strongs[0].textContent = `“${query.trim()}”`;
+        if (strongs[1]) strongs[1].textContent = activeCat;
+      } else {
+        strongs[0].textContent = activeCat;
+      }
+    }
+    if (clearBtn) clearBtn.hidden = query === '';
   }
 
-  buttons.forEach((btn) => btn.addEventListener('click', () => apply(btn.dataset.cat!)));
+  buttons.forEach((btn) =>
+    btn.addEventListener('click', () => {
+      activeCat = btn.dataset.cat!;
+      apply();
+    }),
+  );
+
+  search?.addEventListener('input', () => {
+    query = search.value;
+    apply();
+  });
+  search?.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      search.value = '';
+      query = '';
+      apply();
+    }
+  });
+  clearBtn?.addEventListener('click', () => {
+    if (!search) return;
+    search.value = '';
+    query = '';
+    apply();
+    search.focus();
+  });
 </script>
