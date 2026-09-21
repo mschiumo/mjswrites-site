@@ -4,7 +4,7 @@ slug: "what-remains"
 date: 2026-09-21
 categories: ["Poetry"]
 excerpt: "i know all too well how death will feel, and, for that reason, i do not fear it"
-heroImage: "/images/what-remains.webp"
+heroImage: "/images/what-remains.jpg"
 ---
 
 i know all too well how death will feel, and, for that reason, i do not fear it  
