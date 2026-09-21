@@ -4,6 +4,7 @@ slug: "a-promise"
 date: 2026-09-21
 categories: ["Poetry"]
 excerpt: "the future has never been clear to me, but one thing remains certain – this undying love i hold for those who share this world with me will burn as fiercely as ever"
+heroImage: "/images/a-promise.webp"
 ---
 
 the future has never been clear to me, but one thing remains certain – this undying love i hold for those who share this world with me will burn as fiercely as ever  
