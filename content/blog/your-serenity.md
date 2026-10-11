@@ -21,4 +21,4 @@ that our paths would cross, and we would be taken to that moment once more
 
 and i’d no longer have to wonder what you would do if you saw me,  
 
-because i’d know, at last, that you’d longed for this moment too  
+because i’d know, at last, that you’d longed for this moment, too  
