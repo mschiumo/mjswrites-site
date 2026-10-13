@@ -13,7 +13,7 @@ the one who will mourn the blood that spills from my veins, but who chooses to c
 
 the one who hardens his heart in adversity, and allows it to soften when peace returns  
 
-the one certain that he will sacrifice what he must to live honorably, and wakes to wax poetic in the throes of death  
+the one certain that he will sacrifice what he must to live honorably, yet wake to wax poetic in the throes of death  
 
 this is the path that was chosen for me, and i am condemned to follow it  
 
