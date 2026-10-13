@@ -38,7 +38,7 @@ const counts = new Map<string, number>(
           data-cats={post.data.categories.join('|')}
           data-title={post.data.title}
         >
-          <div class="blog-item-img"><img src={post.data.heroImage} alt={post.data.title} loading="lazy" /></div>
+          <div class="blog-item-img"><img src={post.data.heroImage} alt={post.data.title} loading="lazy" style={post.data.heroPosition && `object-position: ${post.data.heroPosition}`} /></div>
           <div class="blog-item-copy">
             <div class="blog-item-meta">
               <span>{fullDate(post.data.date)}</span>

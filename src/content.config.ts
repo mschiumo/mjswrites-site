@@ -10,6 +10,8 @@ const blog = defineCollection({
     categories: z.array(z.string()).default([]),
     excerpt: z.string().optional(),
     heroImage: z.string().optional(),
+    // CSS object-position for cropped cover images, e.g. "center 80%"
+    heroPosition: z.string().optional(),
     heroCaption: z.string().optional(),
     heroCaptionUrl: z.string().optional(),
     originalUrl: z.string().optional(),
