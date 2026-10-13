@@ -79,7 +79,7 @@ const jsonLd = {
 
     {post.data.heroImage && (
       <figure class="article-hero">
-        <div class="article-hero-frame"><img src={post.data.heroImage} alt={post.data.title} /></div>
+        <div class="article-hero-frame"><img src={post.data.heroImage} alt={post.data.title} style={post.data.heroPosition && `object-position: ${post.data.heroPosition}`} /></div>
         {post.data.heroCaption && (
           <figcaption class="hero-caption">
             {post.data.heroCaptionUrl
@@ -102,7 +102,7 @@ const jsonLd = {
         <div class="keep-grid">
           {related.map((m) => (
             <a href={postUrl(m)} class="keep-card">
-              <div class="keep-img"><img src={m.data.heroImage} alt={m.data.title} loading="lazy" /></div>
+              <div class="keep-img"><img src={m.data.heroImage} alt={m.data.title} loading="lazy" style={m.data.heroPosition && `object-position: ${m.data.heroPosition}`} /></div>
               <div class="keep-body">
                 <div class="keep-tag">{m.data.categories[0] ?? 'Journal'}</div>
                 <h3>{m.data.title}</h3>

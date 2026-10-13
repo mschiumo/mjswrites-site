@@ -5,11 +5,12 @@ date: 2026-10-13
 categories: ["Poetry"]
 excerpt: "i am the warrior and the poet"
 heroImage: "/images/the-warrior-and-the-poet.jpg"
+heroPosition: "center 80%"
 ---
 
 i am the warrior and the poet  
 
-the one who will mourn the blood that spills from my veins, but who chooses to continue onward  
+the one who will mourn the blood that spills from his veins, but who chooses to continue onward  
 
 the one who hardens his heart in adversity, and allows it to soften when peace returns  
 
