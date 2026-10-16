@@ -4,6 +4,7 @@ slug: "tethered"
 date: 2026-10-16
 categories: ["Poetry"]
 excerpt: "how can i sever myself from our past when my heart is tethered to your memory?"
+heroImage: "/images/tethered.jpg"
 ---
 
 how can i sever myself from our past when my heart is tethered to your memory?  
