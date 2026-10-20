@@ -24,7 +24,7 @@ before the tears had time to collect in his eyes, i rested a hand gently on his 
 
 i let him know that i understood  
 
-that i was proud of him because i understood what it had taken to get to this point  
+that i was proud of him *because* i understood what it had taken to get to this point  
 
 we shared one last glance as he turned toward tomorrow, his shoulders noticeably straighter, his chin inclined in triumph  
 
