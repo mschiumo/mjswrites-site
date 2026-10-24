@@ -14,7 +14,7 @@ alas, the world is my home
 
 i long to scour it for its carefully hidden intricacies, just as a child rummages through long-forgotten picture books piled upon each other in the corner  
 
-it is as though they had been laying in wait all this time, eager for me to uncover them  
+it is as though they had been lying in wait all this time, eager for me to uncover them  
 
 to brush away the dust that had gathered across the years, the only reminder of the time that has passed by since they were last discovered  
 
