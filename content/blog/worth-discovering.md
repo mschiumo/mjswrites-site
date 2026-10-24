@@ -5,7 +5,6 @@ date: 2026-10-24
 categories: ["Poetry"]
 excerpt: "when people ask me where i’m from, there’s always a moment of hesitance to respond"
 heroImage: "/images/worth-discovering.jpg"
-heroCaption: "Painting: Paris in Pictures"
 ---
 
 when people ask me where i’m from, there’s always a moment of hesitance to respond  
