@@ -20,4 +20,4 @@ let them drench us with their warmth, until inspiration flows so freely, our spi
 
 because, for the first time in so long, i have begun to see hope  
 
-and that is reason enough to believe that the sun, too, shall rise  
+and that is reason enough to believe that the sun, too, shall shine  
