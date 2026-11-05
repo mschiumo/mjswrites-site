@@ -4,8 +4,7 @@ slug: "the-rebuke-heard-round-the-world"
 date: 2026-11-04
 categories: ["Opinion", "Politics"]
 excerpt: "The reason that I enjoy writing about political events is that it provides a unique opportunity to capture a moment in time. During the previous election in 2024, the tone was decidedly more somber. Today, it is hopeful."
-heroImage: "/images/historic-firsts.jpg"
-heroPosition: "center top"
+heroImage: "/images/blue-wave.webp"
 ---
 
 The reason that I enjoy writing about political events is that it provides a unique opportunity to capture a moment in time. During the previous election in 2024, the [tone was decidedly more somber.](/blog/america-in-the-mirror) Today, it is hopeful.
