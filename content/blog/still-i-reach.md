@@ -32,7 +32,7 @@ so long as i remain resolutely myself, i could never be aimless
 
 terror, fury, wickedness  
 
-i dare thee to strike at me!  
+i defy thee to strike at me!  
 
 still, i reach  
 
