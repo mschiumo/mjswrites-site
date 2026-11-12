@@ -5,7 +5,7 @@ date: 2026-11-12
 categories: ["Poetry"]
 excerpt: "i sip on sorrow in the absence of tea"
 heroImage: "/images/sip-of-sorrow.jpg"
-heroPosition: "center 65%"
+heroPosition: "center 70%"
 ---
 
 i sip on sorrow in the absence of tea  
