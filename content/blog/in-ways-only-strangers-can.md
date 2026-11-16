@@ -5,6 +5,7 @@ date: 2026-11-16
 categories: ["Poetry"]
 excerpt: "i should have kissed you"
 heroImage: "/images/in-ways-only-strangers-can.jpg"
+heroPosition: "center 65%"
 ---
 
 i should have kissed you  
