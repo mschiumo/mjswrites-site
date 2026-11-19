@@ -5,7 +5,7 @@ date: 2026-11-19
 categories: ["Opinion", "Tech"]
 excerpt: "Today, watching the bell ring as Dario Amodei and a group of elated Anthropic executives made their initial public offering at a record valuation, I had the eerie sense that life had changed forever. I know that this might sound dramatic, and that not everyone follows the stock market like I do..."
 heroImage: "/images/yes-anthropics-ipo-matters.jpeg"
-heroCaption: "Dario Amodei, CEO of Anthropic, ringing the opening bell on the Nasdaq, 11/19/26"
+heroCaption: "Amodei and Anthropic Executives ring the opening bell on the Nasdaq, 11/19/2026"
 ---
 
 Today, watching the bell ring as Dario Amodei and a group of elated Anthropic executives made their initial public offering at a record valuation, I had the eerie sense that life had changed forever. I know that this might sound dramatic, and that not everyone follows the stock market like I do (I know, very nerdy of me…). However, I feel that this acknowledgement of a shift in reality is not without justification.
