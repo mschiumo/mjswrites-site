@@ -10,7 +10,7 @@ heroPosition: "center 70%"
 
 how many tears spilled on this journey of mine, is it any wonder my eyes are dry?  
 
-I see what I am, what I can be, so I chisel away each to day to set him free, despite the pain  
+I see what I am, what I can be, so I chisel away each day to set him free, despite the pain  
 
 I refuse to submit to the idea that this world is beyond saving  
 
