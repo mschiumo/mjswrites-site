@@ -10,12 +10,12 @@ heroPosition: "center 70%"
 
 how many tears spilled on this journey of mine, is it any wonder my eyes are dry?  
 
-I see what I am, what I can be, so I chisel away each day to set him free, despite the pain  
+i see what i am, what i can be, so i chisel away each day to set him free, despite the pain  
 
-I refuse to submit to the idea that this world is beyond saving  
+i refuse to submit to the idea that this world is beyond saving  
 
-So long as I draw breath, I will not turn my back on it  
+so long as i draw breath, i will not turn my back on it  
 
-It has given me the chance to live, which is likewise the chance to suffer,  
+it has given me the chance to live, which is likewise the chance to suffer,  
 
-But above all, the chance to change it for the better  
+but above all, the chance to change it for the better  
