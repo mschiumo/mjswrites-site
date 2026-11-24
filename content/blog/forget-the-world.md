@@ -1,7 +1,7 @@
 ---
 title: "forget the world"
 slug: "forget-the-world"
-date: 2026-11-23
+date: 2026-11-23T05:10:00Z
 categories: ["Poetry"]
 excerpt: "would you forget the world for a moment with me?"
 heroImage: "/images/forget-the-world.jpg"

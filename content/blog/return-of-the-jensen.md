@@ -1,7 +1,7 @@
 ---
 title: "Return of the Jensen"
 slug: "return-of-the-jensen"
-date: 2026-11-23
+date: 2026-11-23T23:00:00Z
 categories: ["Opinion", "Tech"]
 excerpt: "In a startling turn of events, Jensen Huang was reinstated as CEO of Nvidia today by unanimous decision of the board. The consensus to bring back the disgraced founder came after direct intervention from President Trump and senior White House officials..."
 heroImage: "/images/return-of-the-jensen.jpg"
