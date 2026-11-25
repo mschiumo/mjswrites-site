@@ -71,10 +71,17 @@ function externalReferrer(): string {
   }
 }
 
-/** Best human-readable label for a clicked control; outbound links name their host. */
+/**
+ * Best human-readable label for a clicked control; outbound links name their
+ * host. A post card is one big link whose text runs date / category / title /
+ * excerpt together, so when the link wraps a heading the heading alone (the
+ * post title) is the label.
+ */
 function labelFor(el: HTMLElement): string | null {
   const explicit = el.getAttribute('data-track') || el.getAttribute('aria-label') || el.title;
-  let label = explicit ? explicit.trim() : (el.textContent ?? '').replace(/\s+/g, ' ').trim();
+  const heading = el.querySelector('h1, h2, h3, h4');
+  const text = (heading ?? el).textContent ?? '';
+  let label = explicit ? explicit.trim() : text.replace(/\s+/g, ' ').trim();
   if (!label && el instanceof HTMLAnchorElement) label = el.getAttribute('href') ?? '';
   if (!label) return null;
   if (el instanceof HTMLAnchorElement && el.host && el.host !== location.host) {
