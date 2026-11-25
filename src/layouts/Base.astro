@@ -95,6 +95,8 @@ const NAV = [
       <script type="application/ld+json" set:html={JSON.stringify(block)} />
     ))}
     <slot name="head" />
+    <!-- First-party traffic tracking → ConfluenceTrading Analytics tab (MJSWrites view) -->
+    <script src="../scripts/analytics.ts"></script>
   </head>
   <body>
     <div class="announcement">
