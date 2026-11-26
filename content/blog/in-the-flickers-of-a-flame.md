@@ -1,5 +1,5 @@
 ---
-title: "In the flickers of a flame"
+title: "in the flickers of a flame"
 slug: "in-the-flickers-of-a-flame"
 date: 2026-11-26T04:37:00Z
 categories: ["Poetry"]
