@@ -3,13 +3,13 @@ title: "days missed"
 slug: "days-missed"
 date: 2026-11-26T14:00:00Z
 categories: ["Poetry"]
-excerpt: "i miss the days before i knew so much about climate change, when i believed that the trees swayed just the same across the planet."
+excerpt: "i miss the days before i knew so much about climate change, when i believed that the trees swayed just the same on any old day."
 heroImage: "/images/days-missed.jpg"
 ---
 
 i miss the days before i knew so much about climate change  
 
-when i believed that the trees swayed just the same across the planet  
+when i believed that the trees swayed just the same on any old day  
 
 i miss the days before i had to declare myself a poet  
 
