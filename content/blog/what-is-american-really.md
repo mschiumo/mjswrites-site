@@ -1,7 +1,7 @@
 ---
 title: "What Is ‘American’ Really?"
 slug: "what-is-american-really"
-date: 2026-11-23
+date: 2026-11-23T03:10:00Z
 categories: ["Opinion"]
 excerpt: "There is something a bit ironic about the perception around the ‘American’ identity right now - the reason that it is so beloved is the same reason that it is at the center of such a heated debate. Simply put, it looks different to everyone, and that is precisely the point..."
 heroImage: "/images/what-is-american-really.jpg"

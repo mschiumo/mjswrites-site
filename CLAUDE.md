@@ -66,6 +66,11 @@ typewriter-typed poetry on Etsy.
    backend is built into the site. FUTURE: if a self-serve editing UI is
    ever needed, the chosen direction is **Sanity** (hosted headless CMS) —
    revisit content-loading in the Astro build at that point.
+   **Poetry post convention (Nov 2026):** title, excerpt, and the entire
+   poem body are all lowercase (including "i"), even if MJ sends the text
+   capitalized. Punctuation stays as written. Each line is its own
+   paragraph ending in two trailing spaces (hard break). Opinion/prose
+   posts keep normal capitalization.
 
 ## Immediate next steps (in order)
 
